@@ -26,7 +26,7 @@ canvas {
   touch-action: none;
 }
 
-.scrim-max-width {
+.screen-max-width {
   margin-inline-start: auto;
   margin-inline-end: auto;
   position: relative;
@@ -35,7 +35,10 @@ canvas {
 .icon {
   width:75px;
   height:75px;
-  border:silver 50px;
+  border: 3px solid 7%;
+  border-image: linear-gradient(45deg, #C0C0C0, #3b3f46, #979ca7) 1;
+  border-radius:7%;
+
 }
 
 @layer utilities {
@@ -48,7 +51,7 @@ canvas {
   }
 
   .btn {
-    @apply px-5 py-2 rounded-3xl bg-blue my-5 hover:bg-transparent border border-transparent hover:border hover:text-blue hover:border-blue
+    @apply px-5 py-2 rounded-3xl bg-purple my-5 hover:bg-transparent border border-transparent hover:border hover:text-purple hover:border-purple
   }
 
   .color-container {
@@ -88,15 +91,15 @@ canvas {
   }
 
   .link {
-    @apply text-blue hover:underline cursor-pointer flex items-center text-xl opacity-0 translate-y-20
+    @apply text-purple hover:underline cursor-pointer flex items-center text-xl opacity-0 translate-y-20
   }
 
   .control-btn {
     @apply ml-4 p-4 rounded-full bg-gray-300 backdrop-blur flex-center
   }
 
-  .hero-title {
-    @apply text-center font-semibold text-3xl text-gray-100 opacity-0 max-md:mb-10
+  .canon-title {
+    @apply text-center font-semibold text-3xl text-gray-100 opacity-0 max-md:mb-10 p-10
   }
 
   .hiw-title {

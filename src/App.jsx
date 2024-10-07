@@ -1,5 +1,5 @@
 import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
+import Canon from "./components/Canon";
 import Highlights from "./components/Highlights";
 
  function App  () {
@@ -7,7 +7,7 @@ import Highlights from "./components/Highlights";
   return (
       <main className="big-black">
        <Navbar/>
-       <Hero/>
+       <Canon/>
        <Highlights/>
       </main>
   )

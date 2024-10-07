@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       colors: {
-        blue: "#2997FF",
+        purple: "#5f367b",
         gray: {
           DEFAULT: "#86868b",
           100: "#94928d",
@@ -12,6 +12,7 @@ export default {
           300: "#42424570",
         },
         zinc: "#101010",
+        shinysilver: "#C0C0C0",
       },
     },
   },
