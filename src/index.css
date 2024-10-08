@@ -32,14 +32,23 @@ canvas {
   position: relative;
   max-width: 1120px;
 }
-.icon {
-  width:75px;
-  height:75px;
-  border: 3px solid 7%;
-  border-image: linear-gradient(45deg, #C0C0C0, #3b3f46, #979ca7) 1;
-  border-radius:7%;
-
+.icon { 
+  width: 100px;
+  height: 100px;
+  animation: rotateY 10s infinite linear; 
+  /*box-shadow: 5px 20px 80px rgba(154, 154, 170, 0.5); */
+  box-shadow: 5px 4px 80px rgba(121, 59, 169); 
 }
+
+@keyframes rotateY {
+  from {
+    transform: rotateY(0deg); 
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}
+
 
 @layer utilities {
   .flex-center {
@@ -71,7 +80,8 @@ canvas {
   }
 
   .section-heading {
-    @apply text-gray lg:text-6xl md:text-5xl text-3xl lg:mb-0 mb-5 font-medium opacity-0 translate-y-20
+    @apply text-gray lg:text-6xl md:text-5xl text-3xl lg:mb-0 mb-5 font-medium opacity-0 translate-y-20;
+    box-shadow: 5px 4px 10px rgba(121, 59, 169); 
   }
 
   .feature-text {
