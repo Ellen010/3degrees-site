@@ -16,7 +16,7 @@ import {
       id: 1,
       textLists: [
         "You wanna try something new?",
-        " Canonc game is a fun way to pass the time with friens or family",
+        " Canon game is a fun way to pass the time with friens or family",
         "It can also be a great gift or an addition to your 3D models collection.",
       ],
       video: highlightFirstVideo,
