@@ -25,8 +25,8 @@ import {
     {
       id: 2,
       textLists: ["This Mario model represents a", 
-        "innovative concept of a toy and a phont holder.",
-        "Six colors that smothly align in this model.",
+        "innovative concept of a toy and a photo holder.",
+        "Six colors that smothly align in this legendary toy.",
       ],
       video: highlightSecondVideo,
       videoDuration: 5,
@@ -44,9 +44,9 @@ import {
     {
       id: 4,
       textLists: [
-        "Lookig for something one-of-the kind?",
+        "Lookig for one-of-the kind model?",
         "This 3D bottle can be charged by USB cable or battery light bulbs.",
-        "Insert photo can be changed." 
+        "Insert the photo to personalise your bottle." 
       ],
       video: highlightFourthVideo,
       videoDuration: 3.63,
@@ -80,11 +80,12 @@ import {
     },
   ];
   
-  export const sizes = [
-    { label: '6.1"', value: "small" },
-    { label: '6.7"', value: "large" },
+  export const attachments = [
+    { label: 'Free standing model wihtouth attachments"', value: "Without the phone" },
+    { label: 'Mario can hold a phone up to 20 sm height and the up to 2 sm/1 iches width"', value: "With the phone" },
   ];
   
+
   export const footerLinks = [
     "Privacy Policy",
     "Terms of Use",

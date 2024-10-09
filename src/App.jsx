@@ -9,6 +9,7 @@ import Highlights from "./components/Highlights";
        <Navbar/>
        <Canon/>
        <Highlights/>
+       {/* <Model/> */}
       </main>
   )
 }
