@@ -24,7 +24,7 @@ import {
     },
     {
       id: 2,
-      textLists: ["This Mario model represents a", 
+      textLists: ["This Mario model represents an", 
         "innovative concept of a toy and a photo holder.",
         "Six colors that smothly align in this legendary toy.",
       ],
