@@ -105,7 +105,7 @@ canvas {
   }
 
   .link {
-    @apply text-purple hover:underline cursor-pointer flex items-center text-xl opacity-0 translate-y-20
+    @apply text-sky hover:underline cursor-pointer flex items-center text-xl opacity-0 translate-y-20 font-semibold text-2xl 
   }
 
   .control-btn {

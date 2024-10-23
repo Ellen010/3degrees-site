@@ -5,7 +5,7 @@ import Highlights from "./components/Highlights";
  function App  () {
 
   return (
-      <main className="big-black">
+      <main className= 'bg-black'>
        <Navbar/>
        <Canon/>
        <Highlights/>
