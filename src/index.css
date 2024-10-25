@@ -33,8 +33,8 @@ canvas {
   max-width: 1120px;
 }
 .icon { 
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   animation: rotateY 10s infinite linear; 
   /*box-shadow: 5px 20px 80px rgba(154, 154, 170, 0.5); */
   box-shadow: 5px 4px 90px 10px rgba(121, 59, 169); 

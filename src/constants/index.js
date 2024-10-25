@@ -51,6 +51,16 @@ import {
       video: highlightFourthVideo,
       videoDuration: 3.63,
     },
+    {
+      id: 5,
+      textLists: [
+        "Hallowen vibes",
+        " Candy festive basket is a tricky gift",
+        "It has happy and scary faces on each side. Pick yours!",
+      ],
+      video: highlightFifthVideo,
+      videoDuration: 5,
+    }
   ];
   
   export const models = [
@@ -78,6 +88,12 @@ import {
       color: ["#454749", "#3b3b3b", "#181819"],
       img: blackImg,
     },
+    {
+      id: 5,
+      title: "Halloween basket - Doublefaced ghost",
+      color: ["#454749", "#3b3b3b", "#181819"],
+      img: blackImg,
+    }
   ];
   
   export const attachments = [
