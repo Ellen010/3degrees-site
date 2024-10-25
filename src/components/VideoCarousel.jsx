@@ -60,10 +60,10 @@ const VideoCarousel = () => {
             gsap.to(videoDivRef.current[videoId], {
               width:
                 window.innerWidth < 760
-                  ? "10vw" // mobile
+                  ? "10vw"
                   : window.innerWidth < 1200
-                  ? "10vw" // tablet
-                  : "4vw", // laptop
+                  ? "10vw" 
+                  : "4vw", 
             });
             gsap.to(span[videoId], {
               width: `${currentProgress}%`,
@@ -191,10 +191,12 @@ const VideoCarousel = () => {
               key={i}
               className="mx-2 w-3 h-3 bg-gray-200 rounded-full relative cursor-pointer"
               ref={(el) => (videoDivRef.current[i] = el)}
+              style={{ backgroundColor: '#5f367b' }}
             >
               <span
                 className="absolute h-full w-full rounded-full"
                 ref={(el) => (videoSpanRef.current[i] = el)}
+                style={{ backgroundColor: '#5f367b'}}
               />
             </span>
           ))}

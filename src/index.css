@@ -64,7 +64,7 @@ canvas {
   }
 
   .btn {
-    @apply px-5 py-2 rounded-3xl bg-purple my-5 hover:bg-transparent border border-transparent hover:border hover:text-purple hover:border-purple
+    @apply px-5 py-2 rounded-3xl bg-turquoise my-5 hover:bg-transparent border border-transparent hover:border hover:text-purple hover:border-turquoise
   }
 
   .color-container {
