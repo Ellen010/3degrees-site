@@ -92,7 +92,7 @@ import {
       id: 5,
       title: "Halloween basket - Doublefaced ghost",
       color: ["#454749", "#3b3b3b", "#181819"],
-      img: blackImg,
+      img: redImg,
     }
   ];
   
