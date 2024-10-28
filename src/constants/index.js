@@ -8,6 +8,7 @@ import {
     highlightFifthVideo,
     whiteImg,
     yellowImg,
+    redImg,
   } from "../utils";
   
   export const navLists = ["Models", "About", "Contact", "Equipment" , "Filament", "Electronics"];
