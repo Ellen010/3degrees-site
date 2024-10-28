@@ -1,3 +1,15 @@
+import React from 'react'
+
+const Model = () => {
+  return (
+    <div>Model</div>
+  )
+}
+
+export default Model
+
+
+
 // import { useGSAP } from "@gsap/react"
 // import gsap from "gsap";
 // import ModelView from "./ModelView";

@@ -2,9 +2,10 @@ import {
     blackImg,
     blueImg,
     highlightFirstVideo,
-    highlightFourthVideo,
     highlightSecondVideo,
     highlightThirdVideo,
+    highlightFourthVideo,
+    highlightFifthVideo,
     whiteImg,
     yellowImg,
   } from "../utils";
@@ -59,7 +60,7 @@ import {
         "It has happy and scary faces on each side. Pick yours!",
       ],
       video: highlightFifthVideo,
-      videoDuration: 5,
+      videoDuration: 3.63,
     }
   ];
   
