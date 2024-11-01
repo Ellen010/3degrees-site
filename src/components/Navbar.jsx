@@ -1,6 +1,8 @@
 import {iconImg, buyImg, searchImg} from '../utils';
 import React from 'react'
 import { navLists } from '../constants';
+import { Link } from "react-router-dom"; 
+import Contact from "./Contact";
 
 const Navbar = () => {
   return (
