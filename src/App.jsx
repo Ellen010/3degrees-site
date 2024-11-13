@@ -1,29 +1,27 @@
-import React from "react";
-import Navbar from "./components/Navbar";
-import Canon from "./components/Canon";
-import Highlights from "./components/Highlights";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Contact from "./components/Contact";
+import Navbar from './components/Navbar';
+// import Hero from './components/Hero';
+import Highlights from './components/Highlights';
+import Model from './components/Model';
+// import Features from './components/Features';
+// import HowItWorks from './components/HowItWorks';
+// import Footer from './components/Footer';
+
+import * as Sentry from '@sentry/react';
 
  function App  () {
 
   return (
       <main className= 'bg-black'>
-           <Router>
            <Navbar/>
            <Canon/>
            <Highlights/>
-           {/* <Model />
+           <Model/>
+           {/*
            <Features />
            <HowItWorks />
            <Footer /> */}
-           <Routes>
-        <Route path="/contact" element={<Contact />} />
-      </Routes>
-           </Router>
-       {/* <Model/> */}
       </main>
   )
 }
 
-export default App
+export default Sentry.withProfiler(App);

@@ -68,33 +68,33 @@ import {
   export const models = [
     {
       id: 1,
-      title: "Pirate Cannon Game.",
+      title: "Blue pen holder",
       color: ["#8F8A81", "#ffe7b9", "#6f6c64"],
-      img: yellowImg,
-    },
-    {
-      id: 2,
-      title: "Mario Phone Holder",
-      color: ["#53596E", "#6395ff", "#21242e"],
       img: blueImg,
     },
     {
+      id: 2,
+      title: "Green pen holder",
+      color: ["#53596E", "#6395ff", "#21242e"],
+      img: greenImg,
+    },
+    {
       id: 3,
-      title: "Lithophane wagon",
+      title: "Orange pen holder",
       color: ["#C9C8C2", "#ffffff", "#C9C8C2"],
-      img: whiteImg,
+      img: orangeImg,
     },
     {
       id: 4,
-      title: "Bottle of Champagne - Lithophane holder",
+      title: "Red pen holder",
       color: ["#454749", "#3b3b3b", "#181819"],
-      img: blackImg,
+      img: redImg,
     },
     {
       id: 5,
-      title: "Halloween basket - Doublefaced ghost",
+      title: "Yellow pen holder",
       color: ["#454749", "#3b3b3b", "#181819"],
-      img: redImg,
+      img: yellowImg,
     }
   ];
   
