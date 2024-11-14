@@ -2,6 +2,11 @@ import { useGSAP } from "@gsap/react"
 import gsap from "gsap";
 import ModelView from "./ModelView";
 import { useEffect, useRef, useState } from "react";
+import { blueImg } from "../utils";
+import { greenImg } from "../utils";
+import { turquoiseImg } from "../utils";
+import { orangeImg } from "../utils";
+import { redImg} from "../utils";
 import { yellowImg } from "../utils";
 
 import * as THREE from 'three';

@@ -1,7 +1,6 @@
 import Navbar from './components/Navbar';
-// import Hero from './components/Hero';
+import Canon from './components/Canon';
 import Highlights from './components/Highlights';
-import Model from './components/Model';
 // import Features from './components/Features';
 // import HowItWorks from './components/HowItWorks';
 // import Footer from './components/Footer';
@@ -15,7 +14,6 @@ import * as Sentry from '@sentry/react';
            <Navbar/>
            <Canon/>
            <Highlights/>
-           <Model/>
            {/*
            <Features />
            <HowItWorks />
