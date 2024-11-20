@@ -9,19 +9,14 @@ import Contact from "./components/Contact";
 
   return (
       <main className= 'bg-black'>
-           <Router>
            <Navbar/>
            <Canon/>
            <Highlights/>
-           {/* <Model />
+           {/* 
            <Features />
            <HowItWorks />
            <Footer /> */}
-           <Routes>
-        <Route path="/contact" element={<Contact />} />
-      </Routes>
-           </Router>
-       {/* <Model/> */}
+    
       </main>
   )
 }
