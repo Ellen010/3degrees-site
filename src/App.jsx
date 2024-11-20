@@ -2,8 +2,8 @@ import React from "react";
 import Navbar from "./components/Navbar";
 import Canon from "./components/Canon";
 import Highlights from "./components/Highlights";
+import Model from "./components/Model";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Contact from "./components/Contact";
 
  function App  () {
 
@@ -12,6 +12,7 @@ import Contact from "./components/Contact";
            <Navbar/>
            <Canon/>
            <Highlights/>
+           <Model/>
            {/* 
            <Features />
            <HowItWorks />
