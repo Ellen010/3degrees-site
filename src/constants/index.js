@@ -1,14 +1,15 @@
 import {
-    blackImg,
     blueImg,
     highlightFirstVideo,
     highlightSecondVideo,
     highlightThirdVideo,
     highlightFourthVideo,
     highlightFifthVideo,
-    whiteImg,
+    greenImg,
+    orangeImg,
     yellowImg,
     redImg,
+    turquoiseImg,
   } from "../utils";
   
   export const navLists = ["Models", "About", "Contact", "Equipment" , "Filament", "Electronics"];
@@ -68,39 +69,45 @@ import {
   export const models = [
     {
       id: 1,
-      title: "Pirate Cannon Game.",
-      color: ["#8F8A81", "#ffe7b9", "#6f6c64"],
-      img: yellowImg,
-    },
-    {
-      id: 2,
-      title: "Mario Phone Holder",
-      color: ["#53596E", "#6395ff", "#21242e"],
+      title: "Blue Tube",
+      color: ["#2596be"],
       img: blueImg,
     },
     {
+      id: 2,
+      title: "Green Tube",
+      color: ["#5bcb76"],
+      img: greenImg,
+    },
+    {
       id: 3,
-      title: "Lithophane wagon",
-      color: ["#C9C8C2", "#ffffff", "#C9C8C2"],
-      img: whiteImg,
+      title: "Orange Tub",
+      color: ["#fb8436"],
+      img: orangeImg,
     },
     {
       id: 4,
-      title: "Bottle of Champagne - Lithophane holder",
-      color: ["#454749", "#3b3b3b", "#181819"],
-      img: blackImg,
+      title: "Red Tub",
+      color: ["#cc1c14"],
+      img: redImg,
     },
     {
       id: 5,
-      title: "Halloween basket - Doublefaced ghost",
-      color: ["#454749", "#3b3b3b", "#181819"],
-      img: redImg,
+      title: "Turquoise Tub",
+      color: ["#6fde9b"],
+      img: turquoiseImg,
+    },
+    {
+      id: 6,
+      title: "Yellow Tub",
+      color: ["#fbdc4e"],
+      img: yellowImg,
     }
   ];
   
-  export const attachments = [
-    { label: 'Free standing model wihtouth attachments"', value: "Without the phone" },
-    { label: 'Mario can hold a phone up to 20 sm height and the up to 2 sm/1 iches width"', value: "With the phone" },
+  export const sizes = [
+    { label: '8sm', value: "small" },
+    { label: '12sm"', value: "large" },
   ];
   
 

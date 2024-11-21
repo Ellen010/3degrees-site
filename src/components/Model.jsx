@@ -14,7 +14,7 @@ const Model = () => {
   const [size, setSize] = useState('small');
   const [model, setModel] = useState({
     title: '10sm Holder in Yellow color',
-    color: ['#8F8A81', '#FFE7B9', '#6F6C64'],
+    color: ['#f2a608', '#f1202', '#6fde9b'],
     img: yellowImg,
   })
 

@@ -21,11 +21,12 @@ import replay from "/assets/images/replay.svg";
 import play from "/assets/images/play.svg";
 import pause from "/assets/images/pause.svg";
 
-import yellow from "/assets/images/yellow.png";
 import blue from "/assets/images/blue.png";
-import white from "/assets/images/white.png";
-import black from "/assets/images/black.png";
+import green from "/assets/images/green.png";
+import orange from "/assets/images/orange.png";
 import red from "/assets/images/red.png";
+import turquoise from "/assets/images/turquoise.png";
+import yellow from "/assets/images/yellow.png"
 import explore1 from "/assets/images/explore1.jpg";
 import explore2 from "/assets/images/explore2.jpg";
 import chip from "/assets/images/chip.jpeg";
@@ -50,11 +51,12 @@ export const replayImg = replay;
 export const playImg = play;
 export const pauseImg = pause;
 
-export const yellowImg = yellow;
 export const blueImg = blue;
-export const whiteImg = white;
-export const blackImg = black;
+export const greenImg = green;
+export const orangeImg = orange;
 export const redImg = red;
+export const yellowImg = yellow;
+export const turquoiseImg = turquoise;
 export const explore1Img = explore1;
 export const explore2Img = explore2;
 export const chipImg = chip;
