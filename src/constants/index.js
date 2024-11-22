@@ -106,8 +106,8 @@ import {
   ];
   
   export const sizes = [
-    { label: '8sm', value: "small" },
-    { label: '12sm"', value: "large" },
+    { label: '8s', value: "small" },
+    { label: '12s"', value: "large" },
   ];
   
 

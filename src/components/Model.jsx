@@ -15,7 +15,7 @@ const Model = () => {
   const [model, setModel] = useState({
     title: '10sm Holder in Yellow color',
     color: ['#f2a608', '#f1202', '#6fde9b'],
-    img: yellowImg,
+    img: redImg,
   })
 
   const cameraControlSmall = useRef();
