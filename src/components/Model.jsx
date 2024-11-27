@@ -13,7 +13,7 @@ import { animateWithGsapTimeline } from "../utils/animations";
 const Model = () => {
   const [size, setSize] = useState('small');
   const [model, setModel] = useState({
-    title: '10sm Holder in Yellow color',
+    title: '10s Holder in Yellow color',
     color: ["#f2a608", "#f1202", "#6fde9b", "#2596be", "#5bcb76", "#fb8436", "#cc1c14"],
     img: yellowImg,
   })
