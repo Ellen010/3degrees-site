@@ -3,9 +3,11 @@ import Navbar from "./components/Navbar";
 import Canon from "./components/Canon";
 import Highlights from "./components/Highlights";
 import Model from "./components/Model";
+import Features from "./components/Features";
+import Footer from "./components/Footer";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import * as Sentry from "@sentry/react";
-import Features from "./components/Features";
+
 
  function App  () {
   
@@ -16,9 +18,10 @@ import Features from "./components/Features";
            <Highlights/>
            <Model/>
            <Features />
+           <Footer /> 
            {/* 
            <HowItWorks />
-           <Footer /> */}
+      */}
     
       </main>
   )

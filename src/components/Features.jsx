@@ -74,19 +74,19 @@ const Features = () => {
               <div className="feature-text-container">
                 <div className="flex-1 flex-center">
                   <p className="feature-text g_text">
-                    Ideal Mario is
+                    Ideal Mario is {' '}
                     <span className="text-white">
                       modifiable and made of several colors
                     </span>,
-                    using precise parts to perfectly fitting.
+                    using precise parts for perfect fitting.
                   </p>
                 </div>
 
                 <div className="flex-1 flex-center">
                   <p className="feature-text g_text">
-                    Unique recycable materials that are safe for enviroment and weight
+                    Unique recycable materials are safe for enviroment and lightweight{' '}
                     <span className="text-white">
-                      and it is one of the lighest concepts.
+                      and the aseembly is extremely easy. {' '}
                     </span>
                     You'll notice the unique features of this model once you print it!
                   </p>
