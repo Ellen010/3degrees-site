@@ -1,7 +1,7 @@
 import { useGSAP } from '@gsap/react'
 import React, { useRef } from 'react'
 import { animateWithGsap } from '../utils/animations';
-import { explore1Img, explore2Img, exploreVideo } from '../utils';
+import { explore1Img, explore2Img, explore3Img, explore4Img, exploreVideo } from '../utils';
 import gsap from 'gsap';
 
 const Features = () => {
@@ -59,12 +59,22 @@ const Features = () => {
                 <div className="overflow-hidden flex-1 h-[50vh]">
                   <img src={explore2Img} alt="titanium 2" className="feature-video g_grow" />
                 </div>
+                
               </div>
-
+              <div className="flex flex-col w-full relative">
+              <div className="feature-video-container">
+              <div className="overflow-hidden flex-1 h-[50vh]">
+                  <img src={explore3Img} alt="titanium" className="feature-video g_grow" />
+                </div>
+                <div className="overflow-hidden flex-1 h-[50vh]">
+                  <img src={explore4Img} alt="titanium" className="feature-video g_grow" />
+                </div>
+              </div>
+              </div>
               <div className="feature-text-container">
                 <div className="flex-1 flex-center">
                   <p className="feature-text g_text">
-                    Ideal Mario is {' '}
+                    Ideal Mario is
                     <span className="text-white">
                       modifiable and made of several colors
                     </span>,
@@ -74,7 +84,7 @@ const Features = () => {
 
                 <div className="flex-1 flex-center">
                   <p className="feature-text g_text">
-                    Unique recycable materials that are safe for enviroment and weight {' '}
+                    Unique recycable materials that are safe for enviroment and weight
                     <span className="text-white">
                       and it is one of the lighest concepts.
                     </span>
