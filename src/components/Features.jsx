@@ -22,8 +22,8 @@ const Features = () => {
     animateWithGsap('#features_title', { y:0, opacity:1})
     animateWithGsap(
       '.g_grow',
-      { scale: 1, opacity: 1, ease: 'power1' },
-      { scrub: 5.5 }
+      { scale: 1, opacity: 10, ease: 'power1.inOut' },
+      { scrub: 50.5 }
     );
     animateWithGsap(
       '.g_text',
