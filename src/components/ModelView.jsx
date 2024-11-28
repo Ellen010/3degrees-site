@@ -13,7 +13,7 @@ const ModelView = ({ index, groupRef, gsapType, controlRef, setRotationState, si
       id={gsapType}
       className={`w-full h-full absolute ${index === 2 ? 'right-[-100%]' : ''}`}
     >
-      <ambientLight intensity={1} />
+      <ambientLight intensity={0.5} />
 
       <PerspectiveCamera makeDefault position={[0, 0, 4]} />
 
