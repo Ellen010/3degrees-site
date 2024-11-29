@@ -69,45 +69,45 @@ import {
   export const models = [
     {
       id: 1,
-      title: "Blue Tube",
+      title: "Blue Winnie",
       color: ["#2596be"],
       img: blueImg,
     },
     {
       id: 2,
-      title: "Green Tube",
+      title: "Green Winnie",
       color: ["#5bcb76"],
       img: greenImg,
     },
     {
       id: 3,
-      title: "Orange Tub",
+      title: "Orange Winnie",
       color: ["#fb8436"],
       img: orangeImg,
     },
     {
       id: 4,
-      title: "Red Tub",
+      title: "Red Winnie",
       color: ["#cc1c14"],
       img: redImg,
     },
     {
       id: 5,
-      title: "Turquoise Tub",
+      title: "Turquoise Winnie",
       color: ["#6fde9b"],
       img: turquoiseImg,
     },
     {
       id: 6,
-      title: "Yellow Tub",
+      title: "Yellow Winnie",
       color: ["#fbdc4e"],
       img: yellowImg,
     }
   ];
   
   export const sizes = [
-    { label: '8s', value: "small" },
-    { label: '12s"', value: "large" },
+    { label: '8cm', value: "small" },
+    { label: '12cm', value: "large" },
   ];
   
 
