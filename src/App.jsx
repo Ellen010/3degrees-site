@@ -19,8 +19,7 @@ import * as Sentry from "@sentry/react";
            <Model/>
            <Features />
            <Footer /> 
-           {/* 
-           <HowItWorks />
+           {/*<HowItWorks />
       */}
     
       </main>
