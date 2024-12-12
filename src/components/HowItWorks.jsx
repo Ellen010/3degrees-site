@@ -36,7 +36,7 @@ const HowItWorks = () => {
 
         <div className="flex flex-col items-center">
           <h2 className="hiw-title">
-            Two tier box.
+            Two-tier box.
             <br /> An excellent Christmas gift.
           </h2>
 
@@ -66,14 +66,14 @@ const HowItWorks = () => {
           <div className="hiw-text-container">
                 <div className="flex flex-1 justify-center flex-col">
                   <p className="hiw-text g_fadeIn">
-                    This unique model was designed for a superior experience. It
+                    This unique model was designed for a superior experience.
                     <span className="text-white">
-                      allows you to play and enjoy your 3D printer and test its highest capacity.
+                      This two-tier box allows you to play and enjoy your 3D printer and test its highest capacity.
                     </span>.
                   </p>
 
                   <p className="hiw-text g_fadeIn">
-                   Colors
+                   Colors {' '}
                     <span className="text-white">
                       can be easily changed
                     </span>,
@@ -83,9 +83,9 @@ const HowItWorks = () => {
               
 
               <div className="flex-1 flex justify-center flex-col g_fadeIn">
-                <p className="hiw-text">New</p>
+                <p className="hiw-text"> Perplexing and unique model offers a</p>
                 <p className="hiw-bigtext">incredible desing </p>
-                <p className="hiw-text">with 4 containers</p>
+                <p className="hiw-text">with 4 containers and durable elements for user of high expectations.</p>
               </div>
               </div>
             </div>
