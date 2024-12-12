@@ -46,21 +46,21 @@ const HowItWorks = () => {
         </div>
 
         <div className="mt-10 md:mt-20 mb-14">
-          <div className="relative h-full flex-center">
+          <div className="relative h-full w-full flex-center">
             <div className="overflow-hidden">
               <img 
                 src={frameImg}
                 alt="frame"
                 className="bg-transparent relative z-10"
               />
-            </div>
+            </div> 
             <div className="hiw-video">
                 <video className="pointer-events-none" playsInline preload="none" muted autoPlay ref={videoRef}>
                   <source src={boxVideo} type="video/mp4" />
                 </video>
               </div>
           </div>
-          <p className="text-gray font-semibold text-center mt-3">Created by 3Degrees team</p>
+          <p className="text-gray font-semibold text-center mt-3">Created by 3Degrees </p>
           </div>
 
           <div className="hiw-text-container">
