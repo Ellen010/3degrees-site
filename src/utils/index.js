@@ -10,7 +10,7 @@ import highlightThirdmv from "/assets/videos/hightlight-sec.mp4";
 import highlightFourthmv from "/assets/videos/hightlight-fourth.mp4";
 import highlightFifthmv from "/assets/videos/hightlight-fifth.mp4";
 import exploremv from "/assets/videos/explore.mp4";
-import framemv from "/assets/videos/frame.mp4";
+import boxmv from "/assets/videos/box2.mp4";
 
 import icon from "/assets/images/icon.png";
 import search from "/assets/images/search.svg";
@@ -31,7 +31,7 @@ import explore1 from "/assets/images/explore1.jpg";
 import explore2 from "/assets/images/explore2.jpg";
 import explore3 from "/assets/images/explore3.jpg";
 import explore4 from "/assets/images/explore4.jpg";
-import chip from "/assets/images/chip.jpeg";
+import boxPhoto from "/assets/images/boxPhoto.jpg";
 import frame from "/assets/images/frame.png";
 
 export const canonVideo = hmv;
@@ -42,7 +42,7 @@ export const highlightThirdVideo = highlightThirdmv;
 export const highlightFourthVideo = highlightFourthmv;
 export const highlightFifthVideo = highlightFifthmv;
 export const exploreVideo = exploremv;
-export const frameVideo = framemv;
+export const boxVideo = boxmv;
 
 export const iconImg = icon;
 export const searchImg = search;
@@ -63,5 +63,5 @@ export const explore1Img = explore1;
 export const explore2Img = explore2;
 export const explore3Img = explore3;
 export const explore4Img = explore4;
-export const chipImg = chip;
+export const boxImg = boxPhoto;
 export const frameImg = frame;
