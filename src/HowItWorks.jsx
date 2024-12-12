@@ -60,7 +60,7 @@ const HowItWorks = () => {
                 </video>
               </div>
           </div>
-          <p className="text-gray font-semibold text-center mt-3">Created by 3Degrees</p>
+          <p className="text-gray font-semibold text-center mt-3">Created by 3Degrees team</p>
           </div>
 
           <div className="hiw-text-container">
