@@ -31,17 +31,17 @@ const HowItWorks = () => {
     <section className="common-padding">
       <div className="screen-max-width">
         <div id="chip" className="flex-center w-full my-20">
-          <img src={boxImg} alt="chip" width={180} height={180} />
+          <img src={boxImg} alt="chip" width={500} height={500} />
         </div>
 
         <div className="flex flex-col items-center">
           <h2 className="hiw-title">
-            A17 Pro chip.
-            <br /> A monster win for gaming.
+            Two tier box.
+            <br /> An excellent Christmas gift.
           </h2>
 
           <p className="hiw-subtitle">
-            It's here. The biggest redesign in the history of Apple GPUs.
+            Two tiers allow the user to store more items. And modifiable structure lets
           </p>
         </div>
 
@@ -60,32 +60,32 @@ const HowItWorks = () => {
                 </video>
               </div>
           </div>
-          <p className="text-gray font-semibold text-center mt-3">Honkai: Star Rail</p>
+          <p className="text-gray font-semibold text-center mt-3">Created by 3Degrees team</p>
           </div>
 
           <div className="hiw-text-container">
                 <div className="flex flex-1 justify-center flex-col">
                   <p className="hiw-text g_fadeIn">
-                    A17 Pro is an entirely new class of iPhone chip that delivers our {' '}
+                    This unique model was designed for a superior experience. It
                     <span className="text-white">
-                      best graphic performance by far
+                      allows you to play and enjoy your 3D printer and test its highest capacity.
                     </span>.
                   </p>
 
                   <p className="hiw-text g_fadeIn">
-                   Mobile {' '}
+                   Colors
                     <span className="text-white">
-                      games will look and feel so immersive
+                      can be easily changed
                     </span>,
-                     with incredibly detailed environments and characters.
+                     and the festive design offers a marvellous spirit for winter holidays.
                   </p>
                 </div>
               
 
               <div className="flex-1 flex justify-center flex-col g_fadeIn">
                 <p className="hiw-text">New</p>
-                <p className="hiw-bigtext">Pro-class GPU</p>
-                <p className="hiw-text">with 6 cores</p>
+                <p className="hiw-bigtext">incredible desing </p>
+                <p className="hiw-text">with 4 containers</p>
               </div>
               </div>
             </div>
