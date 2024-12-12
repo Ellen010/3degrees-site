@@ -68,7 +68,7 @@ const HowItWorks = () => {
                   <p className="hiw-text g_fadeIn">
                     This unique model was designed for a superior experience. It
                     <span className="text-white">
-                      allows you to pla and enjoy your 3D printer and see its highest capacity.
+                      allows you to play and enjoy your 3D printer and test its highest capacity.
                     </span>.
                   </p>
 
