@@ -12,7 +12,14 @@ import {
     turquoiseImg,
   } from "../utils";
   
-  export const navLists = ["Models", "Highlights", "Contact", "Equipment" , "Filament", "Electronics"];
+  export const navLists = [
+    { name: "Models", path: "/models" },
+    { name: "Highlights", path: "/highlights" },
+    { name: "Contact", path: "/contact" },
+    { name: "Equipment", path: "/equipment" },
+    { name: "Filament", path: "/filament" },
+    { name: "Electronics", path: "/electronics" },
+  ];
   
   export const hightlightsSlides = [
     {

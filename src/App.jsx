@@ -9,21 +9,27 @@ import Footer from "./components/Footer";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import * as Sentry from "@sentry/react";
 
-
- function App  () {
-  
+function App() {
   return (
-      <main className= 'bg-black'>
-           <Navbar/>
-           <Canon/>
-           <Highlights/>
-           <Model/>
-           <Features /> 
-           <HowItWorks />
-           <Footer />
-    
+    <Router>
+      <main className="bg-black">
+        {/* Navbar is always visible */}
+        <Navbar />
+
+        {/* Define routes for different components */}
+        <Routes>
+          <Route path="/" element={<Canon />} />
+          <Route path="/highlights" element={<Highlights />} />
+          <Route path="/model" element={<Model />} />
+          <Route path="/features" element={<Features />} />
+          <Route path="/how-it-works" element={<HowItWorks />} />
+        </Routes>
+
+        {/* Footer is always visible */}
+        <Footer />
       </main>
-  )
+    </Router>
+  );
 }
 
 export default Sentry.withProfiler(App);
