@@ -24,8 +24,10 @@ function App() {
           <Route path="/features" element={<Features />} />
           <Route path="/how-it-works" element={<HowItWorks />} />
         </Routes>
-
-        {/* Footer is always visible */}
+           <Highlights/>
+           <Model/>
+           <Features /> 
+           <HowItWorks />
         <Footer />
       </main>
     </Router>
