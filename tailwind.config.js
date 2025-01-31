@@ -14,6 +14,9 @@ export default {
           200: '#afafaf',
           300: '#42424570',
         },
+        eminence: {
+          600: "#6C3082",
+        },
         zinc: "#101010",
         shinysilver: "#C0C0C0",
       },

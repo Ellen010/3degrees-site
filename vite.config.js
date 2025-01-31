@@ -7,7 +7,8 @@ import autoprefixer from 'autoprefixer';
 export default defineConfig({
   plugins: [react(), sentryVitePlugin({
     org: "ipag-5a",
-    project: "javascript-react"
+    project: "javascript-react", 
+    telemetry: false
   })],
 
   css: {
