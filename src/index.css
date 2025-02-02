@@ -153,4 +153,7 @@ canvas {
   .contact-text {
     @apply text-gray text-3xl font-normal md:font-semibold py-10
   }
+  .contact-ways {
+    @apply text-gray text-3xl font-normal md:font-semibold py-10 leading-5
+  }
 }
