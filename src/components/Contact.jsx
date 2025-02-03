@@ -2,20 +2,35 @@ import { useGSAP } from '@gsap/react';
 import React, { useRef, useState } from 'react';
 import gsap from 'gsap';
 import { animateWithGsap } from '../utils/animations';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
+gsap.registerPlugin(ScrollTrigger);
 
 const Contact = () => {
   const formRef = useRef(null);
   const [formData, setFormData] = useState({ name: '', email: '', message: '' });
 
+  // useGSAP(() => {
+  //   gsap.to("#title", { opacity: 1, y: 0 });
+  //   animateWithGsap('.g_fadeIn', {
+  //     opacity: 1,
+  //     y: 0,
+  //     duration: 1,
+  //     ease: 'power2.inOut'
+  //   });
+  // }, []);
+
   useGSAP(() => {
-    gsap.to("#title", { opacity: 1, y: 0 });
-    animateWithGsap('.g_fadeIn', {
+    gsap.to("#title", { opacity: 1, y: 0, duration: 1 });
+    gsap.to('.g_fadeIn', {
       opacity: 1,
       y: 0,
-      duration: 1,
-      ease: 'power2.inOut'
+      duration: 3,
+      ease: 'power2.inOut',
+      stagger: 0.2
     });
   }, []);
+  
+  
 
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
@@ -24,7 +39,7 @@ const Contact = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     
-    const mailtoLink = `mailto:ewlen04@gmail.com?subject=Contact%20Form%20Message&body=Name:%20${encodeURIComponent(formData.name)}%0AEmail:%20${encodeURIComponent(formData.email)}%0AMessage:%20${encodeURIComponent(formData.message)}`;
+    const mailtoLink = `mailto:nomail@nomail.com?subject=Contact%20Form%20Message&body=Name:%20${encodeURIComponent(formData.name)}%0AEmail:%20${encodeURIComponent(formData.email)}%0AMessage:%20${encodeURIComponent(formData.message)}`;
     window.location.href = mailtoLink;
     
     setFormData({ name: '', email: '', message: '' });
@@ -36,12 +51,27 @@ const Contact = () => {
         <div className="mb-25 w-full items-end justify-between">
           <h1 id="title" className="section-heading">Contact Us</h1>
         </div>
-        
-        <div className="flex-1 flex justify-center flex-col g_fadeIn p-20">
-          <p className="contact-text">Get in touch</p>
-          <p className="hiw-text">We'd love to hear from you! Whether you have questions, feedback, or just want to say hello, feel free to reach out.</p>
-        </div>
-
+        <div className="flex-1 flex justify-center flex-col g_fadeIn p:10">
+              <p className="contact-text">Get in touch </p>
+              <p className="hiw-text">We put our efforts into contious improvement of our customer service.</p>
+                <p className="hiw-text">We'd love to hear from you! Whether you have questions, feedback, or just want to say hello, feel free to reach out.</p>
+      </div>
+      <div className="flex-1 flex justify-center flex-col g_fadeIn p:20">
+              <p className="contact-text">More Ways to Shop:</p>
+              <p className="contact-ways">Find our models on <a href="https://cults3d.com/en/users/3Dregrees/3d-models" target="_blank"  rel="noopener noreferrer" className="inline-block hover:scale-120 hover:text-blue-300 transition-transform duration-300">Cults3D</a></p>
+              <p className="contact-ways">Explore our designs on <a href="https://thangs.com/designer/3Degrees?srsltid=AfmBOopMAuFmHTgI8h87cecmd_VbMzET9eob4eKIVPCPkCvi8V1WEZnr" target="_blank" rel="noopener noreferrer" className="inline-block hover:scale-120 hover:text-blue-400 transition-transform duration-300">Thangs</a></p>
+              <p className="contact-ways">Print your dream model on <a href="https://makerworld.com/en/@3Degrees" target="_blank"  rel="noopener noreferrer" className="inline-block hover:scale-120 hover:text-blue-500 transition-transform duration-300">Bambu Lab</a></p>
+              <p className="contact-ways">Follow our new concepts on <a href="https://www.crealitycloud.com/user-profile/1487784242" target="_blank"  rel="no opener noreferrer" className="inline-block hover:scale-120 hover:text-blue-600 transition-transform duration-300">Creality Cloud</a></p>
+      </div>
+              
+      <div className="flex-1 flex justify-center flex-col g_fadeIn p:20">
+              <p className="contact-text">Business Hours: </p>
+              <p className="hiw-text">Monday to Friday: 9 AM - 6 PM</p>
+              <p className="hiw-text">Saturday: 10 AM - 4 PM</p>
+              <p className="hiw-text">Sunday: Closed</p>
+              <p className="hiw-text">We look forward to connecting with you!</p>
+              <p className="hiw-text">Feel free to customize it further to suit your needs!</p>
+      </div>
         <form ref={formRef} onSubmit={handleSubmit} className="g_fadeIn p-20 flex flex-col max-w-lg mx-auto">
           <label className="mb-2">Name:</label>
           <input 
@@ -69,7 +99,7 @@ const Contact = () => {
             value={formData.message} 
             onChange={handleChange} 
             required 
-            className="mb-4 p-2 border border-gray-300 rounded h-32"
+            className="mb-4 p-2 border border-gray-400 rounded h-32"
           ></textarea>
 
           <button type="submit" className="msg-btn">Send Message</button>

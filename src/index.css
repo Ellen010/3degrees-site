@@ -64,7 +64,8 @@ canvas {
   }
 
   .btn {
-    @apply px-5 py-2 rounded-3xl bg-turquoise my-5 hover:bg-transparent border border-transparent hover:border hover:text-purple hover:border-turquoise
+    @apply px-10 py-2 rounded-3xl bg-gray-700 m-5 hover:bg-transparent border border-transparent hover:bg-blue-300
+     backdrop-blur flex-center 
   }
 
   .color-container {
@@ -157,6 +158,6 @@ canvas {
     @apply text-gray text-3xl font-normal md:font-semibold py-10 leading-5
   }
   .msg-btn {
-    @apply  m-8 p-4 rounded-full bg-gray-300 backdrop-blur flex-center
+    @apply  m-8 p-5 rounded-full bg-gray-700 backdrop-blur flex-center hover:bg-blue-300
   }
 }
