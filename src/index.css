@@ -156,4 +156,7 @@ canvas {
   .contact-ways {
     @apply text-gray text-3xl font-normal md:font-semibold py-10 leading-5
   }
+  .msg-btn {
+    @apply  m-8 p-4 rounded-full bg-gray-300 backdrop-blur flex-center
+  }
 }
