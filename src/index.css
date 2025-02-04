@@ -160,4 +160,7 @@ canvas {
   .msg-btn {
     @apply  m-8 p-5 rounded-full bg-gray-700 backdrop-blur flex-center hover:bg-blue-300
   }
+  .fil-text {
+    @apply text-gray text-xl font-normal md:font-semibold w-1/4 text-justify pl-5 pr-5
+  }
 }

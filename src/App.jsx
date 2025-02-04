@@ -26,9 +26,7 @@ function App() {
                 <Highlights />
                 <Model />
                 <Features />
-                <Filament />
                 <HowItWorks />
-                <Contact />
                 <Footer />
               </>
             } 
@@ -36,7 +34,7 @@ function App() {
           <Route path="/highlights" element={<Highlights />} />
           <Route path="/model" element={<Model />} />
           <Route path="/features" element={<Features />} />
-          <Route path="/Filament" element={<Filament />} />
+          <Route path="/filament" element={<Filament />} />
           <Route path="/how-it-works" element={<HowItWorks />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
