@@ -1,7 +1,7 @@
 import React, { useRef } from 'react'
 import { useGSAP } from '@gsap/react';
 import { animateWithGsap } from '../utils/animations';
-import { filgr, filgrs, filye, filyes, filbl, filbls, exploreVideo } from '../utils';
+import { filgr, filgrs, filye, filyes, filbl, filbls, filVideo } from '../utils';
 import gsap from 'gsap';
 
 
@@ -51,7 +51,7 @@ Filament is commonly available in two standard diameters: 1.75 mm and 2.85 mm. T
           <div className="flex-center flex-col sm:px-10">
             <div className="relative h-[50vh] w-full flex items-center">
               <video playsInline id="exploreVideo" className="w-full h-full object-cover object-center" preload="none" muted autoPlay ref={videoRef}>
-                <source src={exploreVideo} type="video/mp4" />
+                <source src={filVideo} type="video/mp4" />
               </video>
             </div>
             <div className="flex-left flex-col sm:p-10">

@@ -11,6 +11,7 @@ import highlightFourthmv from "/assets/videos/hightlight-fourth.mp4";
 import highlightFifthmv from "/assets/videos/hightlight-fifth.mp4";
 import exploremv from "/assets/videos/explore.mp4";
 import boxmv from "/assets/videos/box2.mp4";
+import filmv from "/assets/videos/fil.mp4";
 
 import icon from "/assets/images/icon.png";
 import search from "/assets/images/search.svg";
@@ -49,6 +50,7 @@ export const highlightFourthVideo = highlightFourthmv;
 export const highlightFifthVideo = highlightFifthmv;
 export const exploreVideo = exploremv;
 export const boxVideo = boxmv;
+export const filVideo=filmv;
 
 export const iconImg = icon;
 export const searchImg = search;
