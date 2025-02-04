@@ -42,7 +42,7 @@ const Filament = () => {
         <div className="flex flex-col justify-center items-center overflow-hidden">
           <div className="mt-20 mb-24 pl-24">
             <h2 className="text-5xl lg:text-7xl font-semibold">3D printing filament</h2>
-            <p className="hiw-text mt-10 ">It serves as the thermoplastic material used in fused deposition modeling (FDM) 3D printers. A variety of filament types exist, each with distinct characteristics.
+            <p className="hiw-text mt-10 ">Serves as the thermoplastic material used in fused deposition modeling (FDM) 3D printers. A variety of filament types exist, each with distinct characteristics.
 
 Filament is commonly available in two standard diameters: 1.75 mm and 2.85 mm. The latter is frequently mistaken for the less prevalent 3 mm size. The filament itself is a continuous, thin strand of plastic wound onto a spool for storage and use.</p>
           
