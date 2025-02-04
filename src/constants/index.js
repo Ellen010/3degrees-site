@@ -13,7 +13,7 @@ import {
   } from "../utils";
   
   export const navLists = [
-    { name: "Models", path: "/models" },
+    { name: "Designs", path: "/designs" },
     { name: "Highlights", path: "/highlights" },
     { name: "Contact", path: "/contact" },
     { name: "Equipment", path: "/equipment" },
