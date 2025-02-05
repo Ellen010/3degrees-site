@@ -177,7 +177,7 @@ canvas {
     @apply flex flex-col justify-center items-center gap-4 mt-4;
   }
   .des-logo {
-    @apply w-[40px] h-[40px] object-contain;
+    @apply w-[50px] h-[50px] hover:scale-150 object-contain;
   }
   
 }
