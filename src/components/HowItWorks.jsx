@@ -37,7 +37,7 @@ const HowItWorks = () => {
         <div className="flex flex-col items-center">
           <h2 className="hiw-title">
             Two-tier box.
-            <br /> An excellent Christmas gift.
+            <br /> Excellent Christmas gift.
           </h2>
 
           <p className="hiw-subtitle">
