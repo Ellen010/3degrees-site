@@ -170,4 +170,11 @@ canvas {
   .des-video-container {
     @apply w-full flex flex-col md:flex-row gap-5 items-center justify-center text-center;
   }
+  .des-logo-container {
+    @apply flex justify-center items-center gap-4 mt-4;
+  }
+  .des-logo {
+    @apply w-[40px] h-[40px] object-contain;
+  }
+  
 }

@@ -46,6 +46,10 @@ import des1 from "/assets/videos/des1.gif";
 import des2 from "/assets/images/des2.gif";
 import des3 from "/assets/images/des3.gif";
 import des4 from "/assets/images/des4.gif";
+import cults from "/assets/images/cults.svg";
+import thangs from "/assets/images/thangs.svg";
+import bambu from "/assets/images/bambu.svg";
+import creality from "/assets/images/creality.svg";
 
 export const canonVideo = hmv;
 export const smallCanonVideo = smallmv;
@@ -91,3 +95,7 @@ export const desOne=des1;
 export const desTwo=des2;
 export const desThree=des3;
 export const desFour=des4;
+export const cultsLogo=cults;
+export const thangsLogo=thangs;
+export const bambuLogo=bambu;
+export const crealityLogo=creality;
