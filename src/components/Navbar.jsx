@@ -1,4 +1,4 @@
-import {iconImg, buyImg, searchImg} from '../utils';
+import {iconImg, cultsLogo, thangsLogo, bambuLogo, crealityLogo } from '../utils';
 import React from 'react'
 import { navLists } from '../constants';
 import { Link } from "react-router-dom"; 
@@ -44,8 +44,14 @@ const Navbar = () => {
           </div>
         )}
         <div className="flex items-baseline gap-7 max-sm:justify-end max-sm:flex-1">
-          <img src={searchImg} alt="search" width={18} height={18} />
-          <img src={buyImg} alt="buy" width={18} height={18} />
+        <a href="https://cults3d.com/en/users/3Dregrees/3d-models" target="_blank"  rel="no opener noreferrer">
+          <img src={cultsLogo} alt="cults" class="nav-logo invest-10"/></a>
+          <a href="https://thangs.com/designer/3Degrees?srsltid=AfmBOopMAuFmHTgI8h87cecmd_VbMzET9eob4eKIVPCPkCvi8V1WEZnr" target="_blank"  rel="no opener noreferrer">
+          <img src={thangsLogo} alt="thangs"class="nav-logo invert-95"/></a>
+          <a href="https://makerworld.com/en/@3Degrees" target="_blank"  rel="no opener noreferrer">
+          <img src={bambuLogo} alt="bambu" class="nav-logo invert-95"/></a>
+          <a href="https://www.crealitycloud.com/user-profile/1487784242" target="_blank"  rel="no opener noreferrer">
+          <img src={crealityLogo} alt="creality" class="nav-logo invert-95"/></a>
         </div>
       </nav>
     </header>
