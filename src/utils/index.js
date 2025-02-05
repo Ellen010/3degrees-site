@@ -34,12 +34,18 @@ import explore3 from "/assets/images/explore3.jpg";
 import explore4 from "/assets/images/explore4.jpg";
 import boxPhoto from "/assets/images/boxPhoto.jpg";
 import frame from "/assets/images/frame.png";
+
 import filgreen from "/assets/images/fil-green.jpeg";
 import filgreens from "/assets/images/fil-green2.jpeg";
 import filyell from "/assets/images/fil-yellow.jpeg";
 import filyells from "/assets/images/fil-yellow2.jpeg";
 import filblack from "/assets/images/fil-black.jpeg";
 import filblacks from "/assets/images/fil-black2.jpeg";
+
+import des1 from "/assets/videos/des1.gif";
+import des2 from "/assets/images/des2.gif";
+import des3 from "/assets/images/des3.gif";
+import des4 from "/assets/images/des4.gif";
 
 export const canonVideo = hmv;
 export const smallCanonVideo = smallmv;
@@ -73,9 +79,15 @@ export const explore3Img = explore3;
 export const explore4Img = explore4;
 export const boxImg = boxPhoto;
 export const frameImg = frame;
+
 export const filgr=filgreen;
 export const filgrs=filgreens;
 export const filye=filyell;
 export const filyes=filyells;
 export const filbl=filblack;
 export const filbls=filblacks;
+
+export const desOne=des1;
+export const desTwo=des2;
+export const desThree=des3;
+export const desFour=des4;

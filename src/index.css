@@ -163,4 +163,11 @@ canvas {
   .fil-text {
     @apply text-gray text-xl font-normal md:font-semibold w-1/4 text-justify pl-5 pr-5
   }
+  /* Designs page */
+  .des-video {
+    @apply w-[900px] h-[800px] object-cover object-center opacity-0 p-10;
+  }
+  .des-video-container {
+    @apply w-full flex flex-col md:flex-row gap-5 items-center justify-center text-center;
+  }
 }
