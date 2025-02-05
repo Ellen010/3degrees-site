@@ -24,7 +24,7 @@ const Designs = () => {
     animateWithGsap(
       '.g_grow',
       { scale: 1, opacity: 1, ease: 'power1.inOut' },
-      { scrub: 40 }
+      { scrub: 20 }
     );
     animateWithGsap(
       '.g_text',
