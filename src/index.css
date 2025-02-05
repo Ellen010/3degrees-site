@@ -163,6 +163,9 @@ canvas {
   .fil-text {
     @apply text-gray text-xl font-normal md:font-semibold w-1/4 text-justify pl-5 pr-5
   }
+  .contact-link {
+    @apply inline-block hover:scale-110 hover:text-blue-600 transition-transform duration-300
+  }
   /* Designs page */
   .des-video {
     @apply w-[900px] h-[800px] object-cover object-center opacity-0 p-10;
@@ -171,7 +174,7 @@ canvas {
     @apply w-full flex flex-col md:flex-row gap-5 items-center justify-center text-center;
   }
   .des-logo-container {
-    @apply flex justify-center items-center gap-4 mt-4;
+    @apply flex flex-col justify-center items-center gap-4 mt-4;
   }
   .des-logo {
     @apply w-[40px] h-[40px] object-contain;

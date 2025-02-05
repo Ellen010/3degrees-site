@@ -58,10 +58,10 @@ const Contact = () => {
       </div>
       <div className="flex-1 flex justify-center flex-col g_fadeIn p:20">
               <p className="contact-text">More Ways to Shop:</p>
-              <p className="contact-ways">Find our models on <a href="https://cults3d.com/en/users/3Dregrees/3d-models" target="_blank"  rel="noopener noreferrer" className="inline-block hover:scale-120 hover:text-blue-300 transition-transform duration-300">Cults3D</a></p>
-              <p className="contact-ways">Explore our designs on <a href="https://thangs.com/designer/3Degrees?srsltid=AfmBOopMAuFmHTgI8h87cecmd_VbMzET9eob4eKIVPCPkCvi8V1WEZnr" target="_blank" rel="noopener noreferrer" className="inline-block hover:scale-120 hover:text-blue-400 transition-transform duration-300">Thangs</a></p>
-              <p className="contact-ways">Print your dream model on <a href="https://makerworld.com/en/@3Degrees" target="_blank"  rel="noopener noreferrer" className="inline-block hover:scale-120 hover:text-blue-500 transition-transform duration-300">Bambu Lab</a></p>
-              <p className="contact-ways">Follow our new concepts on <a href="https://www.crealitycloud.com/user-profile/1487784242" target="_blank"  rel="no opener noreferrer" className="inline-block hover:scale-120 hover:text-blue-600 transition-transform duration-300">Creality Cloud</a></p>
+              <p className="contact-ways">Find our models on <a href="https://cults3d.com/en/users/3Dregrees/3d-models" target="_blank"  rel="noopener noreferrer" className="contact-link">Cults3D</a></p>
+              <p className="contact-ways">Explore our designs on <a href="https://thangs.com/designer/3Degrees?srsltid=AfmBOopMAuFmHTgI8h87cecmd_VbMzET9eob4eKIVPCPkCvi8V1WEZnr" target="_blank" rel="noopener noreferrer" className="contact-link">Thangs</a></p>
+              <p className="contact-ways">Print your dream model on <a href="https://makerworld.com/en/@3Degrees" target="_blank"  rel="noopener noreferrer" className="contact-link">Bambu Lab</a></p>
+              <p className="contact-ways">Follow our new concepts on <a href="https://www.crealitycloud.com/user-profile/1487784242" target="_blank"  rel="no opener noreferrer" className="contact-link">Creality Cloud</a></p>
       </div>
               
       <div className="flex-1 flex justify-center flex-col g_fadeIn p:20">
