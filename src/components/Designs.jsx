@@ -49,7 +49,7 @@ const Designs = () => {
               <a href="https://thangs.com/designer/3Degrees/3d-model/Electronic%20box%20-%202x4%20compartments-1221756" target="_blank"  rel="no opener noreferrer">
               <img src={thangsLogo} alt="logo" width={18} height={18} className="des-logo invert-95"/></a>
               <a href="https://makerworld.com/en/models/1029490#profileId-1011960" target="_blank"  rel="no opener noreferrer">
-              <img src={bambuLogo} alt="logo" width={18} height={18} className="des-logo invert-95"/></a>
+              <img src={bambuLogo} alt="logo" width={18} height={18} className="des-logo invert-75"/></a>
               {/* <a href="" target="_blank"  rel="no opener noreferrer">
               <img src={crealityLogo} alt="logo" width={18} height={18} className="des-logo invert-95"/></a> */}
             </div>
@@ -63,7 +63,7 @@ const Designs = () => {
               {/* <a href="" target="_blank"  rel="no opener noreferrer">
               <img src={thangsLogo} alt="logo" width={18} height={18} className="des-logo invert-95"/></a>
               <a href="" target="_blank"  rel="no opener noreferrer">
-              <img src={bambuLogo} alt="logo" width={18} height={18} className="des-logo invert-95"/></a>
+              <img src={bambuLogo} alt="logo" width={18} height={18} className="des-logo invert-75"/></a>
               {/* <a href="" target="_blank"  rel="no opener noreferrer">
               <img src={crealityLogo} alt="logo" width={18} height={18} className="des-logo invert-95"/></a> */}
               </div> 
@@ -81,7 +81,7 @@ const Designs = () => {
               <a href="https://thangs.com/designer/3Degrees/3d-model/Bird%20Magnet-1146021" target="_blank"  rel="no opener noreferrer">
               <img src={thangsLogo} alt="logo" width={18} height={18} className="des-logo invert-95"/></a>
               <a href="https://makerworld.com/en/models/755415#profileId-689528" target="_blank"  rel="no opener noreferrer">
-              <img src={bambuLogo} alt="logo" width={18} height={18} className="des-logo invert-95"/></a>
+              <img src={bambuLogo} alt="logo" width={18} height={18} className="des-logo invert-75"/></a>
               {/* <a href="" target="_blank"  rel="no opener noreferrer">
               <img src={crealityLogo} alt="logo" width={18} height={18} className="des-logo invert-95"/></a> */}
             </div>
@@ -95,7 +95,7 @@ const Designs = () => {
               <a href="https://thangs.com/designer/3Degrees/3d-model/Christmas%20Box%20-%202x4%20compartments%20-1217786" target="_blank"  rel="no opener noreferrer">
               <img src={thangsLogo} alt="logo" width={18} height={18} className="des-logo invert-95"/></a>
               <a href="https://makerworld.com/en/models/878648#profileId-832247" target="_blank"  rel="no opener noreferrer">
-              <img src={bambuLogo} alt="logo" width={18} height={18} className="des-logo invert-95"/></a>
+              <img src={bambuLogo} alt="logo" width={18} height={18} className="des-logo invert-75"/></a>
               {/* <a href="" target="_blank"  rel="no opener noreferrer">
               <img src={crealityLogo} alt="logo" width={18} height={18} className="des-logo invert-95"/></a> */}
             </div>

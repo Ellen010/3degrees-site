@@ -51,6 +51,13 @@ import thangs from "/assets/images/thangs.svg";
 import bambu from "/assets/images/bambu.svg";
 import creality from "/assets/images/creality.svg";
 
+import bambulab1 from "/assets/images/bambulab-p1s.png";
+import prusa1 from "/assets/images/prusa1.png";
+import prusa2 from "/assets/images/prusa2.png";
+import prusa3 from "/assets/images/prusa3.png";
+import boat1 from "/assets/images/boat1.png";
+import bambulab2 from "/assets/videos/bambulab2.mp4";
+
 export const canonVideo = hmv;
 export const smallCanonVideo = smallmv;
 export const highlightFirstVideo = highlightFirstmv;
@@ -99,3 +106,10 @@ export const cultsLogo=cults;
 export const thangsLogo=thangs;
 export const bambuLogo=bambu;
 export const crealityLogo=creality;
+
+export const bambOne=bambulab1;
+export const prusaOne=prusa1;
+export const prusaTwo=prusa2;
+export const prusaThree=prusa3;
+export const boatOne=boat1;
+export const bambTwo=bambulab2;

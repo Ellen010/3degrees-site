@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import Canon from "./components/Canon";
 import Contact from "./components/Contact";
 import Designs from "./components/Designs";
+import Equipment from "./components/Equipment";
 import Features from "./components/Features";
 import Filament from "./components/Filament";
 import Footer from "./components/Footer";
@@ -34,6 +35,7 @@ function App() {
           />
           <Route path="/contact" element={<Contact />} />
           <Route path="/designs" element={<Designs />} />
+          <Route path="/equipment" element={<Equipment />} />
           <Route path="/features" element={<Features />} />
           <Route path="/filament" element={<Filament />} />
           <Route path="/highlights" element={<Highlights />} />

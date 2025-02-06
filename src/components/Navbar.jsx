@@ -49,7 +49,7 @@ const Navbar = () => {
           <a href="https://thangs.com/designer/3Degrees?srsltid=AfmBOopMAuFmHTgI8h87cecmd_VbMzET9eob4eKIVPCPkCvi8V1WEZnr" target="_blank"  rel="no opener noreferrer">
           <img src={thangsLogo} alt="thangs"class="nav-logo invert-95"/></a>
           <a href="https://makerworld.com/en/@3Degrees" target="_blank"  rel="no opener noreferrer">
-          <img src={bambuLogo} alt="bambu" class="nav-logo invert-95"/></a>
+          <img src={bambuLogo} alt="bambu" class="nav-logo invert-75"/></a>
           <a href="https://www.crealitycloud.com/user-profile/1487784242" target="_blank"  rel="no opener noreferrer">
           <img src={crealityLogo} alt="creality" class="nav-logo invert-95"/></a>
         </div>

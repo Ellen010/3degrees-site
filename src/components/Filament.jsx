@@ -1,4 +1,4 @@
-import React, { useRef, useEffect } from 'react'
+import React, { useRef } from 'react'
 import { useGSAP } from '@gsap/react';
 import { animateWithGsap } from '../utils/animations';
 import { filgr, filgrs, filye, filyes, filbl, filbls, filVideo } from '../utils';
@@ -90,29 +90,6 @@ const Filament = () => {
                     <img src={filbls} alt="titanium" className="feature-video g_grow" />
                   </div>
                 </div>
-              </div>
-              <div className="feature-text-container">
-                <div className="flex-1 flex-center">
-                  <p className="feature-text g_text">
-                    Ideal Mario is {' '}
-                    <span className="text-white">
-                      modifiable and made of several colors
-                    </span>,
-                    using precise parts for perfect fitting.
-                  </p>
-                </div>
-
-                <div className="flex-1 flex-center">
-                  <p className="feature-text g_text">
-                    Unique recycable materials are safe for enviroment and lightweight{' '}
-                    <span className="text-white">
-                      and the aseembly is extremely easy. {' '}
-                    </span>
-                    You'll notice the unique features of this model once you print it!
-                  </p>
-                </div>
-
-
               </div>
             </div>
           </div>

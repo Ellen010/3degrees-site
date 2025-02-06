@@ -182,5 +182,7 @@ canvas {
   .des-logo {
     @apply w-[50px] h-[50px] hover:scale-150 object-contain;
   }
-  
+  .txt-sm  {
+    @apply font-semibold text-gray text-xs
+  }
 }

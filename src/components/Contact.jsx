@@ -9,16 +9,6 @@ const Contact = () => {
   const formRef = useRef(null);
   const [formData, setFormData] = useState({ name: '', email: '', message: '' });
 
-  // useGSAP(() => {
-  //   gsap.to("#title", { opacity: 1, y: 0 });
-  //   animateWithGsap('.g_fadeIn', {
-  //     opacity: 1,
-  //     y: 0,
-  //     duration: 1,
-  //     ease: 'power2.inOut'
-  //   });
-  // }, []);
-
   useGSAP(() => {
     gsap.to("#title", { opacity: 1, y: 0, duration: 1 });
     gsap.to('.g_fadeIn', {
