@@ -86,7 +86,7 @@ const Equipment = () => {
             </div>
           </div>
           <div className="flex md:flex-row flex-col md:items-center justify-between">
-          <p className="txt-sm pt-30">The images presented that have been uploaded on this page are owned by the original Prusa https://www.prusa3d.com and Bambu https://bambulab.com websites, and their intellectual property rights are fully respected.</p>
+          <p className="txt-sm pt-30">The images presented on this page are owned by the original Prusa https://www.prusa3d.com and Bambu https://bambulab.com websites, and their intellectual property rights are fully respected.</p>
           </div>
         </div>
       </div>

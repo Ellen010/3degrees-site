@@ -7,18 +7,7 @@ const Footer = () => {
       <div className="screen-max-width">
         <div>
           <p className="txt-sm ">
-            More ways to shop: {' '}
-            <span className="underline text-blue">
-            Find my models {' '}
-            </span>
-            on https://cults3d.com/en/users/3Dregrees/3d-models {' '}
-            <span className="underline text-blue">
-            or https://thangs.com/designer/3Degrees?srsltid=AfmBOoqqd54qKk-v0arWkAeAeCnGFt5MS4IjZrVmzf_sQyUS7COSaP6x
-            </span>{' '}
-            .
-          </p>
-          <p className="txt-sm ">
-            
+          The images presented on this page are owned by the original Prusa https://www.prusa3d.com and Bambu https://bambulab.com websites, and their intellectual property rights are fully respected.
           </p>
         </div>
 
