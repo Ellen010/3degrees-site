@@ -4,7 +4,10 @@ export default {
   theme: {
     extend: {
       colors: {
-        purple: '#5f367b',
+        purple: {
+        default:'#793ba9',
+        200:'#5f367b',
+      },
         turquoise: '#238c93',
         sky:'#42bfc3',
         white: '#eeebf0',

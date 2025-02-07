@@ -29,11 +29,13 @@ const Contact = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     
-    const mailtoLink = `mailto:nomail@nomail.com?subject=Contact%20Form%20Message&body=Name:%20${encodeURIComponent(formData.name)}%0AEmail:%20${encodeURIComponent(formData.email)}%0AMessage:%20${encodeURIComponent(formData.message)}`;
+    const mailtoLink = `mailto:ewlen04@gmail.com?subject=Contact%20Form%20Message&body=Name:%20${encodeURIComponent(formData.name)}%0AEmail:%20${encodeURIComponent(formData.email)}%0AMessage:%20${encodeURIComponent(formData.message)}`;
+    
     window.location.href = mailtoLink;
     
     setFormData({ name: '', email: '', message: '' });
-  };
+};
+
 
   return (
     <section id="contact" className="w-screen overflow-hidden h-full common-padding bg-zink">
@@ -68,9 +70,10 @@ const Contact = () => {
             type="text" 
             name="name" 
             value={formData.name} 
-            onChange={handleChange} 
+            onChange={handleChange}  
+            maxLength={30} 
             required 
-            className="mb-4 p-2 border border-gray-300 rounded"
+            className="form-txt g_fadeIn p:30"
           />
 
           <label className="mb-2">Email:</label>
@@ -79,8 +82,9 @@ const Contact = () => {
             name="email" 
             value={formData.email} 
             onChange={handleChange} 
+            maxLength={30} 
             required 
-            className="mb-4 p-2 border border-gray-300 rounded"
+            className="form-txt g_fadeIn p:30"
           />
 
           <label className="mb-2">Message:</label>
@@ -88,11 +92,12 @@ const Contact = () => {
             name="message" 
             value={formData.message} 
             onChange={handleChange} 
+            maxLength={500} 
             required 
-            className="mb-4 p-2 border border-gray-400 rounded h-32"
+            className="form-txt g_fadeIn p:30"
           ></textarea>
 
-          <button type="submit" className="msg-btn">Send Message</button>
+          <button type="submit" className="msg-btn g_fadeIn p:40">Send Message</button>
         </form>
       </div>
     </section>

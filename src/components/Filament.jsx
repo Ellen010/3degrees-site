@@ -8,17 +8,6 @@ const Filament = () => {
   const videoRef = useRef();
 
   useGSAP(() => {
-    gsap.to('#exploreVideo', {
-      scrollTrigger: {
-        trigger: '#exploreVideo',
-        toggleActions: 'play pause reverse restart',
-        start: '-10% bottom',
-      },
-      onComplete: () => {
-        videoRef.current.play();
-      }
-    })
-
     animateWithGsap('#features_title', { y: 0, opacity: 1 })
     animateWithGsap(
       '.g_grow',
@@ -29,7 +18,18 @@ const Filament = () => {
       '.g_text',
       { y: 0, opacity: 1, ease: 'power2.inOut', duration: 1 }
     )
+    gsap.from('#chip', {
+      scrollTrigger: {
+        trigger: '#chip',
+        start: '20% bottom'
+      },
+      opacity: 0,
+      scale: 2,
+      duration: 2,
+      ease: 'power2.inOut'
+    })
   }, []);
+
 
   return (
     <section className="h-full common-padding relative overflow-hidden">
@@ -46,8 +46,8 @@ const Filament = () => {
           </div>
 
           <div className="flex-center flex-col sm:px-10">
-            <div className="relative h-[50vh] w-full flex items-center">
-              <video playsInline id="exploreVideo" className="w-full h-full object-cover object-center" preload="none" muted autoPlay ref={videoRef}>
+            <div className="relative h-[50vh] w-full flex items-center justify-center">
+              <video playsInline id="chip" className="fil-video" preload="none" muted autoPlay ref={videoRef}>
                 <source src={filVideo} type="video/mp4" />
               </video>
             </div>

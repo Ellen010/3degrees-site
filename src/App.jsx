@@ -10,6 +10,7 @@ import Footer from "./components/Footer";
 import Highlights from "./components/Highlights";
 import HowItWorks from "./components/HowItWorks";
 import Model from "./components/Model";
+import Software from "./components/Software";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import * as Sentry from "@sentry/react";
 
@@ -40,7 +41,8 @@ function App() {
           <Route path="/filament" element={<Filament />} />
           <Route path="/highlights" element={<Highlights />} />
           <Route path="/how-it-works" element={<HowItWorks />} />
-          <Route path="/model" element={<Model />} />
+          <Route path="/model" element={<Model />} /> 
+          <Route path="/software" element={<Software />} /> 
         </Routes>
       </main>
     </Router>

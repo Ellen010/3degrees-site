@@ -18,7 +18,7 @@ import {
     { name: "Contact", path: "/contact" },
     { name: "Equipment", path: "/equipment" },
     { name: "Filament", path: "/filament" },
-    { name: "Electronics", path: "/electronics" },
+    { name: "Software", path: "/software" },
   ];
   
   export const hightlightsSlides = [

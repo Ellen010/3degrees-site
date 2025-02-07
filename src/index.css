@@ -37,12 +37,13 @@ canvas {
   height: 80px;
   animation: rotateY 10s infinite linear; 
   /*box-shadow: 5px 20px 80px rgba(154, 154, 170, 0.5); */
-  box-shadow: 5px 4px 90px 10px rgba(121, 59, 169); 
+  box-shadow: 5px 4px 90px 10px purple; 
   border-radius: 95%;
   padding: 10px;
   /* position: absolute;
   left: 0; */
 }
+
 
 @keyframes rotateY {
   from {
@@ -89,7 +90,7 @@ canvas {
 
   .section-heading {
     @apply text-gray lg:text-6xl md:text-5xl text-3xl lg:mb-0 mb-5 font-medium opacity-0 translate-y-20;
-    box-shadow: 5px 4px 10px rgba(121, 59, 169); 
+    box-shadow: 5px 4px 10px purple; 
   }
 
   .feature-text {
@@ -161,13 +162,16 @@ canvas {
     @apply text-gray text-3xl font-normal md:font-semibold py-10 leading-5
   }
   .msg-btn {
-    @apply  m-8 p-5 rounded-full bg-gray-700 backdrop-blur flex-center hover:bg-blue-300
+    @apply  m-8 p-5 rounded-2xl bg-gray-700 backdrop-blur flex-center hover:bg-blue-300
   }
   .fil-text {
     @apply text-gray text-xl font-normal md:font-semibold w-1/4 text-justify pl-5 pr-5
   }
   .contact-link {
     @apply inline-block hover:scale-110 hover:text-blue-600 transition-transform duration-300
+  }
+  .form-txt {
+    @apply m-4 p-2 text-black rounded-lg resize-none overflow-y-auto overflow-x-auto
   }
   /* Designs page */
   .des-video {
@@ -185,4 +189,9 @@ canvas {
   .txt-sm  {
     @apply font-semibold text-gray text-xs
   }
+  /* Filament page */
+  .fil-video {
+    @apply absolute w-[70%] h-[80%] rounded-[10px] overflow-hidden object-cover object-center
+  }
+
 }
