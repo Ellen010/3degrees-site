@@ -58,6 +58,8 @@ import prusa3 from "/assets/images/prusa3.png";
 import boat1 from "/assets/images/boat1.png";
 import bambulab2 from "/assets/videos/bambulab2.mp4";
 
+import slicerl from "/assets/images/slicer-logo.png";
+
 export const canonVideo = hmv;
 export const smallCanonVideo = smallmv;
 export const highlightFirstVideo = highlightFirstmv;
@@ -113,3 +115,5 @@ export const prusaTwo=prusa2;
 export const prusaThree=prusa3;
 export const boatOne=boat1;
 export const bambTwo=bambulab2;
+
+export const slc=slicerl;
