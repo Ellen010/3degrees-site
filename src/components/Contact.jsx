@@ -29,7 +29,7 @@ const Contact = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     
-    const mailtoLink = `mailto:ewlen04@gmail.com?subject=Contact%20Form%20Message&body=Name:%20${encodeURIComponent(formData.name)}%0AEmail:%20${encodeURIComponent(formData.email)}%0AMessage:%20${encodeURIComponent(formData.message)}`;
+    const mailtoLink = `mailto:3degrees@gmail.com?subject=Contact%20Form%20Message&body=Name:%20${encodeURIComponent(formData.name)}%0AEmail:%20${encodeURIComponent(formData.email)}%0AMessage:%20${encodeURIComponent(formData.message)}`;
     
     window.location.href = mailtoLink;
     
