@@ -71,7 +71,7 @@ const Contact = () => {
         <div className="flex-1 flex justify-center flex-col g_fadeIn p:10">
               <p className="contact-text">Get in touch </p>
               <p className="hiw-text">We put our efforts into contious improvement of our customer service.</p>
-                <p className="hiw-text">We'd love to hear from you! Whether you have questions, feedback, or just want to say hello, feel free to reach out.</p>
+                <p className="hiw-text">We'd love to hear from you! Whether you have questions, feedback, or just want to say hello, feel free to reach out at contact.3degrees@gmail.com.</p>
       </div>
       <div className="flex-1 flex justify-center flex-col g_fadeIn p:20">
               <p className="contact-text">More Ways to Shop:</p>
