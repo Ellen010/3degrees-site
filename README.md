@@ -14,6 +14,6 @@ Currently, two official plugins are available:
 
 ![alt text](image-1.png)
 
-(https://github.com/user-attachments/assets/d14040e7-e0b6-4f1c-bd63-a8ecdd0828ba)
+![Screenshot 2025-02-15 222136](https://github.com/user-attachments/assets/54bec83e-9cfb-4c4d-8753-7d9d4d228c90)
 
-(https://github.com/user-attachments/assets/9b640605-6c76-4a21-b878-8ea4e8135295)
+![image](https://github.com/user-attachments/assets/8f55b518-f02a-4f92-b382-24e85baf865d)
