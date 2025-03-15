@@ -5,12 +5,9 @@ import { animateWithGsap } from '../utils/animations';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 gsap.registerPlugin(ScrollTrigger);
 
-// const backendUrl = "http://192.168.100.197:5000";
 
 const Contact = () => {
-  // const formRef = useRef(null);
-  // const [formData, setFormData] = useState({ name: '', email: '', message: '' });
-  // const [msgSend, setMsgSend] = useState(false);
+
 
   useGSAP(() => {
     gsap.to("#title", { opacity: 1, y: 0, duration: 1 });
