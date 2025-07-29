@@ -69,7 +69,7 @@ const HowItWorks = () => {
                     This unique model was designed for a superior experience.
                     <span className="text-white">
                       This two-tier box allows you to play and enjoy your 3D printer and test its highest capacity.
-                    </span>.
+                    </span>
                   </p>
 
                   <p className="hiw-text g_fadeIn">
