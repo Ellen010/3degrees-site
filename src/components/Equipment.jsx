@@ -1,97 +1,187 @@
-import React, { useRef } from 'react'
-import { useGSAP } from '@gsap/react';
-import { animateWithGsap } from '../utils/animations';
-import { bambOne, prusaOne, prusaTwo, prusaThree, boatOne, bambTwo } from '../utils';
-import gsap from 'gsap';
+@import "tailwindcss";
 
-const Equipment = () => {
-  const videoRef = useRef();
-
-  useGSAP(() => {
-    gsap.to('#exploreVideo', {
-      scrollTrigger: {
-        trigger: '#exploreVideo',
-        toggleActions: 'play pause reverse restart',
-        start: '-10% bottom',
-      },
-      onComplete: () => {
-        videoRef.current.play();
-      }
-    })
-    animateWithGsap('#features_title', { y: 0, opacity: 1 })
-    animateWithGsap(
-      '.g_grow',
-      { scale: 1, opacity: 1, ease: 'power1.inOut' },
-      { scrub: 5 }
-    );
-    animateWithGsap(
-      '.g_text',
-      { y: 0, opacity: 1, ease: 'power2.inOut', duration: 3 }
-    )
-    gsap.to("#title", { opacity: 1, y: 0, duration: 1 });
-    gsap.to('.g_fadeIn', {
-      opacity: 1,
-      y: 0,
-      duration: 3,
-      ease: 'power2.inOut',
-      stagger: 0.2
-    });
-  }, []);
-
-  return (
-    <section className="h-full common-padding relative overflow-hidden">
-      <div className="screen-max-wdith g_fadeIn p:10">
-        <div className="mb-12 w-full">
-          <h1 id="features_title" className="section-heading">Equipment</h1>
-        </div>
-
-        <div className="flex flex-col justify-center items-center overflow-hidden">
-          <div className="mt-20 mb-24 pl-24">
-            <h2 className="text-5xl lg:text-7xl font-semibold g_fadeIn p:10">3D printers</h2>
-            <p className="hiw-text mt-10 g_fadeIn p:20">3D printer is a machine that creates three-dimensional objects by depositing layers of material based on a digital model. It uses various materials, such as plastic, metal, or resin, to build up objects layer by layer, allowing for precise and customizable manufacturing.</p>
-            <div className="flex-center flex-col sm:px-10">
-              <div className="relative h-[50vh] w-full flex items-center">
-                <video playsInline id="exploreVideo" className="w-full h-full object-cover object-center p-20" preload="none" muted autoPlay ref={videoRef}>
-                  <source src={bambTwo} type="video/mp4" />
-                </video>
-              </div>
-              <div className="flex-left flex-col sm:p-10">
-              <p className="contact-text g_fadeIn p:20">Bambu Lab P1S</p>
-            </div>
-              <div className="flex flex-col w-full relative">
-                <div className="feature-video-container">
-                  <div className="overflow-hidden flex-1 h-[50vh]">
-                    <img src={bambOne} alt="titanium" className="feature-video g_grow" />
-                  </div>
-                  <p className="fil-text g_fadeIn p:30"> The Bambu Lab P1S is a high-performance 3D printer designed for both hobbyists and professionals, offering a blend of speed and precision. With features like rapid printing capabilities and advanced calibration, it delivers high-quality results while maintaining ease of use. Its user-friendly interface and reliable performance make it an appealing choice for various 3D printing applications.</p>
-                  <div className="overflow-hidden flex-1 h-[50vh]">
-                    <img src={boatOne} alt="titanium 2" className="feature-video g_grow" />
-                  </div>
-                </div>
-                <div className="flex-center flex-col sm:p-10">
-                  <p className="contact-text g_fadeIn p:30">Original Prusa</p>
-                </div>
-                <div className="flex flex-col w-full relative ">
-                  <div className="feature-video-container">
-                    <div className="overflow-hidden flex-1 h-[50vh]">
-                      <img src={prusaOne} alt="titanium" className="feature-video g_grow" />
-                    </div>
-                    <p className="fil-text g_fadeIn p:30">The Prusa Original 3D printer is a well-known, reliable machine favored by both enthusiasts and professionals for its robust build and exceptional print quality. With its open-source design and easy assembly, it offers flexibility for customization and upgrades. Known for consistent performance, the Prusa printer excels in producing detailed, accurate prints, making it a go-to choice for creators and makers alike.</p>
-                    <div className="overflow-hidden flex-1 h-[50vh]">
-                      <img src={prusaTwo} alt="titanium" className="feature-video g_grow" />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="flex md:flex-row flex-col md:items-center justify-between">
-          <p className="txt-sm pt-30">The images presented on this page are owned by the original Prusa https://www.prusa3d.com and Bambu https://bambulab.com websites, and their intellectual property rights are fully respected.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-  )
+@theme {
+  --font-regular: "Regular";
+  --font-medium: "Medium";
+  --font-semibold: "SemiBold";
+  --font-bold: "Bold";
+  --color-primary: #841c21;
+  --color-dark-100: #86868b;
+  --color-dark-200: #2e2e30;
+  --color-light-100: #adb5bd;
 }
 
-export default Equipment
+html {
+  width: 100vw;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100vw;
+  overflow-x: hidden;
+  background-color: #fff7ed;
+  color: var(--color-dark-100);
+  font-family: var(--font-semibold);
+  padding: 2em;
+  text-align: center;
+  margin: 0 auto;
+}
+
+@layer utilities {
+  @utility flex-center {
+    @apply flex items-center justify-center;
+  }
+
+  @utility flex-between {
+    @apply flex items-center justify-between;
+  }
+
+  @utility col-center {
+    @apply flex flex-col items-center justify-center;
+  }
+
+  @utility abs-center {
+    @apply absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2;
+  }
+
+  @utility h3-semibold {
+
+    @apply font-semibold text-xl text-dark-100;
+  }
+
+  @utility base-semibold {
+    @apply font-semibold text-base text-dark-100;
+  }
+
+  @utility small-medium {
+    @apply font-medium text-xs;
+  }
+
+  @utility section-heading {
+    @apply text-red-800 font bold text-6xl md:text-5xl text-3xl lg:mb-0 mb-5 font-medium opacity-0 translate-y-20;
+    box-shadow: 5px 4px 10px darkred;
+  }
+}
+
+@layer components {
+  header {
+    @apply w-screen fixed top-0 left-0 z-50 flex-center bg-orange-50 min-h-[7vh];
+
+    nav {
+      @apply container mx-auto px-5 2xl:px-0;
+
+      img {
+        @apply cursor-pointer hover:-translate-y-0.5 transition-all duration-300 ease-in-out;
+
+        button {
+          @apply bg-transparent border-none outline-none cursor-pointer;
+        }
+
+      ul {
+        @apply flex-center gap-8;
+
+        a {
+          @apply hidden md:block text-red-950 opacity-80 font-regular text-sm cursor-pointer hover:opacity-100 transition-all duration-300 ease-in-out;
+        }
+      }
+    }
+  }
+
+  @layer components {
+    header {
+      @apply w-screen fixed top-0 left-0 z-50 flex-center bg-orange-200 min-h-[7vh];
+
+      nav {
+        @apply container mx-auto flex-between px-5 2xl:px-0;
+
+        img {
+          @apply cursor-pointer hover:-translate-y-0.5 transition-all duration-300 ease-in-out;
+
+          button {
+            @apply bg-transparent border-none outline-none cursor-pointer;
+          }
+        }
+
+        ul {
+          @apply flex-center gap-8;
+
+          a {
+            @apply hidden md:block text-white opacity-80 font-regular text-sm cursor-pointer hover:opacity-100 transition-all duration-300 ease-in-out;
+          }
+        }
+      }
+
+      .logo {
+        @apply h-24 w-24 rounded-[25%] transition-all duration-300 ease-in-out m-4;
+      }
+
+      .logo:hover {
+        @apply shadow-[0_0_30px_rgba(188,143,143,0.9)] scale-110;
+      }
+
+      .navBarList {
+        @apply text-xl font-bold text-red-800;
+      }
+
+      .navBarIcon {
+        @apply h-8 w-8;
+      }
+    }
+      #hero {
+      @apply h-fit lg:h-[80vh] col-center mt-40 lg:mt-20 2xl:mt-[7vh];
+
+      div {
+        @apply relative z-10 col-center lg:translate-y-16;
+
+        h1 {
+          @apply font-semibold lg:text-3xl 2xl:text-5xl text-white;
+        }
+
+        img {
+          @apply container mx-auto w-2/3;
+        }
+      }
+
+      video {
+        @apply m-auto lg:translate-y-5 2xl:translate-y-0 w-3/4 md:w-2/3 lg:w-1/2;
+      }
+
+      button {
+        @apply relative z-10 bg-primary text-white py-2 px-6 mt-10 lg:mt-10 mb-5 rounded-full font-semibold text-lg cursor-pointer hover:bg-[#a68844] hover:text-black transition-all duration-300 ease-in-out;
+      }
+
+      p {
+        @apply lg:h3-semibold base-semibold;
+      }
+    }
+  }
+  #showcase {
+    @apply relative lg:overflow-hidden my-20 max-h-3/4;
+
+    .media {
+      @apply relative lg:overflow-hidden my-20 max-h-3/4;
+
+      video {
+        @apply w-full object-cover object-center;
+      }
+
+      .mask {
+        @apply absolute h-7/8 top-0 lg:-top-40 xl:top-0;
+
+        img {
+          @apply h-full scale-150 lg:scale-100;
+          transform: matrix(80, 0, 0, 80, 0, 0);
+        }
+        @media (max-width: 1024px) {
+          img {
+            transform: matrix(1, 0, 0, 1, 0, 0);
+          }
+        }
+      }
+    }
+    .link {
+      @apply text-red-950 cursor-pointer hover:-translate-y-0.5 transition-all duration-300 ease-in-out;
+    }
+  }
+  }
