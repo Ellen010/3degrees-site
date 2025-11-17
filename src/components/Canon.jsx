@@ -29,7 +29,7 @@ const Canon = () => {
 
   return (
     <section className="w-full nav-height bg-black relative">
-      <div className="h-6/6 w-full flex-center flex-col">
+      <div className="h-4/6 w-full flex-center flex-col">
         <p id="canon" className="canon-title">Pirate Cannon Game</p>
         <div className="w-full h-auto flex-center">
           <video className="pointer-events-none" autoPlay muted playsInline={true} key={videoSrc}>
