@@ -38,7 +38,7 @@ const Canon = () => {
         </div>
       </div>
 
-      <div id="cta" className="flex flex-col items-center opacity-0 translate-y-20">
+      <div id="cta" className="flex flex-col items-center opacity-0 translate-y-20 pt-10">
        <a href="https://cults3d.com/en/3d-model/game/pirate-cannons-game" className="btn" target="_blank" rel="noopener noreferrer">Buy</a>
        <p className="font-normal text-xl">€1.99</p>
       </div>
