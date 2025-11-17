@@ -28,21 +28,31 @@ const Canon = () => {
   }, [])
 
   return (
-    <section className="w-full nav-height bg-black relative">
-      <div className="h-4/6 w-full flex-center flex-col">
-        <p id="canon" className="canon-title">Pirate Cannon Game</p>
-        <div className="w-full h-auto flex-center">
-          <video className="pointer-events-none" autoPlay muted playsInline={true} key={videoSrc}>
-            <source src={videoSrc} type="video/mp4" />
-          </video>
-        </div>
-      </div>
-
-      <div id="cta" className="flex flex-col items-center opacity-0 translate-y-20 mt-10">
-       <a href="https://cults3d.com/en/3d-model/game/pirate-cannons-game" className="btn" target="_blank" rel="noopener noreferrer">Buy</a>
-       <p className="font-normal text-lg">€1.99</p>
-      </div>
-    </section>
+   <section className="w-full nav-height bg-black relative flex flex-col items-center">
+  <div className="w-full max-w-5xl flex flex-col items-center">
+    <p id="canon" className="canon-title mt-6">Pirate Cannon Game</p>
+    <div className="w-full flex justify-center mt-4">
+      <video
+        className="pointer-events-none max-w-full rounded-lg"
+        autoPlay
+        muted
+        playsInline={true}
+        key={videoSrc}>
+        <source src={videoSrc} type="video/mp4" />
+      </video>
+    </div>
+  </div>
+  <div
+    id="cta"
+    className="flex flex-col items-center opacity-0 translate-y-10 mt-8 mb-6">
+    <a
+      href="https://cults3d.com/en/3d-model/game/pirate-cannons-game"
+      className="btn"
+      target="_blank"
+      rel="noopener noreferrer"> Buy </a>
+    <p className="font-normal text-lg mt-2">€1.99</p>
+  </div>
+</section>
   )
 }
 
