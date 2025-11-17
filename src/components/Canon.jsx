@@ -50,7 +50,7 @@ const Canon = () => {
       className="btn"
       target="_blank"
       rel="noopener noreferrer"> Buy </a>
-    <p className="font-normal text-lg mt-2">€1.99</p>
+    <p className="font-normal text-lg">€1.99</p>
   </div>
 </section>
   )
