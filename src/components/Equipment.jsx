@@ -92,4 +92,5 @@ const Equipment = () => {
       </div>
     </section>
   )
+}
   export default Equipment
