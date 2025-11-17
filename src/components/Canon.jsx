@@ -30,8 +30,8 @@ const Canon = () => {
   return (
    <section className="w-full nav-height bg-black relative flex flex-col items-center">
   <div className="w-full max-w-5xl flex flex-col items-center">
-    <p id="canon" className="canon-title mt-6">Pirate Cannon Game</p>
-    <div className="w-full flex justify-center mt-4">
+    <p id="canon" className="canon-title mt-1">Pirate Cannon Game</p>
+    <div className="w-full flex justify-center mt-1">
       <video
         className="pointer-events-none max-w-full rounded-lg"
         autoPlay
@@ -44,7 +44,7 @@ const Canon = () => {
   </div>
   <div
     id="cta"
-    className="flex flex-col items-center opacity-0 translate-y-10 mt-8 mb-6">
+    className="flex flex-col items-center opacity-0 translate-y-10 mt-3 mb-3">
     <a
       href="https://cults3d.com/en/3d-model/game/pirate-cannons-game"
       className="btn"
