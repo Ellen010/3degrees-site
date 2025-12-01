@@ -3,7 +3,7 @@ import globals from 'globals'
 import react from 'eslint-plugin-react'
 import reactHooks from 'eslint-plugin-react-hooks'
 import reactRefresh from 'eslint-plugin-react-refresh'
-import reactThree from '@react-three/eslint-plugin' // Import the plugin
+import reactThree from '@react-three/eslint-plugin'
 
 export default [
   { ignores: ['dist'] },
