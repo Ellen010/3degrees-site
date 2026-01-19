@@ -26,7 +26,7 @@ import {
       id: 1,
       textLists: [
         "You wanna try something new?",
-        " Canon game is a fun way to pass the time with friens or family",
+        " Canon game is a fun way to pass the time with friends or family",
         "It can also be a great gift or an addition to your 3D models collection.",
       ],
       video: highlightFirstVideo,
@@ -36,7 +36,7 @@ import {
       id: 2,
       textLists: ["This Mario model represents an", 
         "innovative concept of a toy and a photo holder.",
-        "Six colors that smothly align in this legendary toy.",
+        "Six colors that smoothly align in this legendary toy.",
       ],
       video: highlightSecondVideo,
       videoDuration: 5,
@@ -44,9 +44,9 @@ import {
     {
       id: 3,
       textLists: [
-        "Notable model",
-        "with personal photo that can be changed.",
-        "Unique point includes modifable concept with possibility to add more pieces.",
+        "Treasure box",
+        "carefully crafted design.",
+        "This exceptional gift can be used as a tool or jewelry organiser.",
       ],
       video: highlightThirdVideo,
       videoDuration: 2,
@@ -54,7 +54,7 @@ import {
     {
       id: 4,
       textLists: [
-        "Lookig for one-of-the kind model?",
+        "Looking for one-of-the kind model?",
         "This 3D bottle can be charged by USB cable or battery light bulbs.",
         "Insert the photo to personalise your bottle." 
       ],
@@ -64,13 +64,23 @@ import {
     {
       id: 5,
       textLists: [
-        "Hallowen vibes",
+        "Halloween vibes",
         " Candy festive basket is a tricky gift",
         "It has happy and scary faces on each side. Pick yours!",
       ],
       video: highlightFifthVideo,
       videoDuration: 3.63,
-    }
+    },
+    {
+      id: 6,
+      textLists: [
+        "Notable model",
+        "with personal photo that can be changed.",
+        "Unique point includes modifiable concept with possibility to add more pieces.",
+      ],
+      video: highlightThirdVideo,
+      videoDuration: 2,
+    },
   ];
   
   export const models = [

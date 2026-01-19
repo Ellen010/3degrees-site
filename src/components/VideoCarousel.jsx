@@ -159,9 +159,9 @@ const VideoCarousel = () => {
                   muted
                   ref={(el) => (videoRef.current[i] = el)}
                   onEnded={() =>
-                    i !== 4
-                      ? handleProcess("video-end", i)
-                      : handleProcess("video-last")
+                      i !== hightlightsSlides.length - 1
+                          ? handleProcess("video-end", i)
+                          : handleProcess("video-last")
                   }
                   onPlay={() =>
                     setVideo((pre) => ({ ...pre, isPlaying: true }))
