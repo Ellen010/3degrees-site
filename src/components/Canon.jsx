@@ -24,16 +24,16 @@ const Canon = () => {
 
   useGSAP(() => {
     gsap.to('#canon', { opacity: 1, delay: 2 })
-    gsap.to('#cta', { opacity: 1, y: -5, delay: 2 })
+    gsap.to('#cta', { opacity: 1, y: 1, delay: 2 })
   }, [])
 
   return (
-   <section className="w-full nav-height bg-black relative flex flex-col items-center">
-  <div className="w-full max-w-5xl flex flex-col items-center">
+      <section className="w-full min-h-screen bg-black relative flex flex-col items-center">
+      <div className="w-full max-w-5xl flex flex-col items-center">
     <p id="canon" className="canon-title mt-1">Pirate Cannon Game</p>
     <div className="w-full flex justify-center mt-1">
       <video
-        className="pointer-events-none max-w-full rounded-lg"
+        className="pointer-events-none max-w-full max-h-[18rem] sm:max-h-[22rem] md:max-h-[26rem] lg:max-h-[30rem] xl:max-h-[34rem] object-contain rounded-lg mb-3"
         autoPlay
         muted
         playsInline={true}
@@ -42,15 +42,9 @@ const Canon = () => {
       </video>
     </div>
   </div>
-  <div
-    id="cta"
-    className="flex flex-col items-center opacity-0 translate-y-10 mt-3 mb-3">
-    <a
-      href="https://cults3d.com/en/3d-model/game/pirate-cannons-game"
-      className="btn"
-      target="_blank"
-      rel="noopener noreferrer"> Buy </a>
-    <p className="font-normal text-lg">€1.99</p>
+  <div id="cta"  className="flex flex-col items-center opacity-0 translate-y-10 mt-3 mb-3">
+    <a href="https://cults3d.com/en/3d-model/game/pirate-cannons-game" className="btn" target="_blank" rel="noopener noreferrer"> Buy </a>
+    <p className="font-normal text-lg mb-[clamp(2rem,3vw,4rem)]">€1.99</p>
   </div>
 </section>
   )

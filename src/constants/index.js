@@ -5,6 +5,7 @@ import {
     highlightThirdVideo,
     highlightFourthVideo,
     highlightFifthVideo,
+    highlightSixthVideo,
     greenImg,
     orangeImg,
     yellowImg,
@@ -78,7 +79,7 @@ import {
         "with personal photo that can be changed.",
         "Unique point includes modifiable concept with possibility to add more pieces.",
       ],
-      video: highlightThirdVideo,
+      video: highlightSixthVideo,
       videoDuration: 2,
     },
   ];

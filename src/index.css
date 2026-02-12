@@ -60,10 +60,6 @@ canvas {
     @apply flex items-center justify-center
   }
 
-  .nav-height {
-    @apply h-[calc(100vh-60px)]
-  }
-
   .btn {
     @apply px-10 py-2 rounded-3xl bg-gray-700 m-5 hover:bg-transparent border border-transparent hover:bg-blue-300
      backdrop-blur flex-center 

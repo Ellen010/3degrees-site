@@ -79,12 +79,13 @@ const Features = () => {
                       modifiable and made of several colors
                     </span>,
                     using precise parts for perfect fitting.
+                    If you search for a Birthday present or a unique gift, Mario will be an <span className="text-white"> ultimate choice.</span>
                   </p>
                 </div>
 
                 <div className="flex-1 flex-center">
                   <p className="feature-text g_text">
-                    Unique recycable materials are safe for enviroment and lightweight{' '}
+                    Remarkable recycable materials are safe for enviroment and lightweight{' '}
                     <span className="text-white">
                       and the aseembly is extremely easy. {' '}
                     </span>
