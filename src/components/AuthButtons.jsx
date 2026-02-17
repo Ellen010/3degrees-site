@@ -4,7 +4,7 @@ const AuthButtons = () => {
     const { loginWithRedirect, logout, isAuthenticated } = useAuth0();
 
     return (
-        <div className="flex gap-4">
+        <div className="flex items-start gap-4 mr-40">
             {!isAuthenticated && (
                 <button
                     onClick={() => loginWithRedirect()}
@@ -26,4 +26,3 @@ const AuthButtons = () => {
 };
 
 export default AuthButtons;
-
