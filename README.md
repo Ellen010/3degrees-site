@@ -1,10 +1,7 @@
 <div align="center">
 
 <h1 align="center">
-  <img src="https://github.com/user-attachments/assets/d841a2ef-9599-44f1-bb77-71cedb90c122" alt="3Degrees logo" width="22"
-    height="22"
-    style="vertical-align: middle; margin-right: 8px;"
-  />
+  <img src="https://github.com/user-attachments/assets/d841a2ef-9599-44f1-bb77-71cedb90c122" alt="3Degrees logo" width="22" height="22" style="vertical-align: middle; margin-right: 8px;"/>
   3Degrees — Art Portfolio Website
 </h1>
 
@@ -132,6 +129,4 @@ npm run build
 # Preview production build
 npm run preview
 
-
-<img width="541" height="461" alt="icon" src="https://github.com/user-attachments/assets/d841a2ef-9599-44f1-bb77-71cedb90c122" />
 
