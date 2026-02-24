@@ -125,12 +125,3 @@ npm run build
 
 # Preview production build
 npm run preview
-
-
-![alt text](image.png)
-
-![alt text](image-1.png)
-
-![Screenshot 2025-02-15 222136](https://github.com/user-attachments/assets/54bec83e-9cfb-4c4d-8753-7d9d4d228c90)
-
-![image](https://github.com/user-attachments/assets/8f55b518-f02a-4f92-b382-24e85baf865d)
