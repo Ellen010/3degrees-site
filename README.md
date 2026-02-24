@@ -1,6 +1,12 @@
 <div align="center">
 
-# 🎨 3Degrees — Art Portfolio Website
+<h1 align="center">
+  <img src="https://github.com/user-attachments/assets/d841a2ef-9599-44f1-bb77-71cedb90c122" alt="3Degrees logo" width="22"
+    height="22"
+    style="vertical-align: middle; margin-right: 8px;"
+  />
+  3Degrees — Art Portfolio Website
+</h1>
 
 </div>
 
