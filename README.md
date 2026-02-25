@@ -4,6 +4,12 @@
   <img src="https://github.com/user-attachments/assets/d841a2ef-9599-44f1-bb77-71cedb90c122" alt="3Degrees logo" width="35" height="35" style="vertical-align: middle; margin-right: 8px;"/>
   3Degrees — Art Portfolio Website
 </h1>
+<p>
+<strong>🌐 Live Demo:</strong>
+<a href="https://3degrees.vercel.app/" target="_blank">
+https://3degrees.vercel.app/
+</a>
+</p>
 
 </div>
 
