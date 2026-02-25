@@ -5,7 +5,7 @@
   3Degrees — Art Portfolio Website
 </h1>
 <p>
-<strong>🌐 Live Demo:</strong>
+<strong>Live Demo:</strong>
 <a href="https://3degrees.vercel.app/" target="_blank">
 https://3degrees.vercel.app/
 </a>
