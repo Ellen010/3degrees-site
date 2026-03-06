@@ -18,23 +18,20 @@ const Software = () => {
       duration: 2,
       ease: 'power2.inOut'
     });
-    animateWithGsap('.g_fadeIn', {
-      opacity: 1,
-  y: 0,
-  duration: 15,
-  ease: 'back.out(3)',
-  repeat: 0
-});
-
-
-// alternative animation
-// animateWithGsap('.g_fadeIn', {
-//   opacity: 1,
-//   y: 0,
-//   duration: 2,
-//   ease: 'bounce.out', 
-//   repeat: 0
-// });
+    animateWithGsap(
+        '.g_fadeIn',
+        {
+          opacity: 1,
+          y: 20,
+          duration: 1.2,
+          ease: 'power2.out'
+        },
+        {
+          start: 'top 85%',
+          stagger: 0.3
+        }
+    );
+    
 
     animateWithGsap('#features_title', { y: 0, opacity: 1 })
         animateWithGsap(
@@ -131,7 +128,7 @@ const Software = () => {
             <span className="text-white">
             Use Cases: 
                 </span>
-              <p className="hiw-text0">Digital sculpting, character modeling, high-detail 3D art.</p>
+              <p className="hiw-text">Digital sculpting, character modeling, high-detail 3D art.</p>
               <span className="text-white">
             Website:  
                 </span>
