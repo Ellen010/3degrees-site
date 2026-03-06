@@ -22,16 +22,17 @@ const Software = () => {
         '.g_fadeIn',
         {
           opacity: 1,
-          y: 20,
-          duration: 1.2,
+          y: 0,
           ease: 'power2.out'
         },
         {
           start: 'top 85%',
-          stagger: 0.3
+          end: 'bottom 60%',
+          scrub: 3,
+          stagger: 0.5
         }
     );
-    
+
 
     animateWithGsap('#features_title', { y: 0, opacity: 1 })
         animateWithGsap(
