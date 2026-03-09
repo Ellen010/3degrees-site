@@ -20,8 +20,6 @@ import ClientSpace from "./components/ClientSpace.jsx";
 import AuthButtons from "./components/AuthButtons.jsx";
 import "./index.css";
 
-
-
 function App() {
   return (
       <Router>
