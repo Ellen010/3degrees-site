@@ -12,17 +12,17 @@ const Navbar = () => {
         <Link to="/">
           <img src={iconImg} alt="Icon" className="icon cursor-pointer" />
         </Link>
+          
+           {/*Desktop Menu*/}
             <div className="flex flex-1 justify-center max-sm:hidden">
-            {navLists.map((nav) => (
-            <Link
-            key={nav.name}
-            to={nav.path}
-            className="px-5 text-sm cursor-pointer text-gray hover:text-white hover:scale-125 transition-transform duration-300"
-          >
-            {nav.name}
-          </Link>
-          ))}
-        </div>
+                {navLists.map((nav) => (
+                     <Link key={nav.name} to={nav.path} className="px-5 text-sm cursor-pointer text-gray hover:text-white hover:scale-125 transition-transform duration-300">
+                         {nav.name}
+                     </Link>
+                 ))}
+           </div>
+
+          
         <button
           className="sm:hidden text-white"
           onClick={() => setIsOpen(!isOpen)}
