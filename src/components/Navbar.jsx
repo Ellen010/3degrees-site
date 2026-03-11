@@ -22,27 +22,18 @@ const Navbar = () => {
                  ))}
            </div>
 
-          
-        <button
-          className="sm:hidden text-white"
-          onClick={() => setIsOpen(!isOpen)}
-        >
-          ☰
-        </button>
+            {/*Mobile Menu*/}
+        <button className="sm:hidden text-white" onClick={() => setIsOpen(!isOpen)}> ☰ </button>
         {isOpen && (
           <div className="absolute top-16 left-0 w-full bg-black flex flex-col items-center py-5 sm:hidden z-50">
-            {navLists.map((nav) => (
-              <Link
-                key={nav.name}
-                to={nav.path}
-                className="py-2 text-white text-lg"
-                onClick={() => setIsOpen(false)}
-              >
-                {nav.name}
-              </Link>
+                {navLists.map((nav) => (
+                   <Link key={nav.name} to={nav.path} className="py-2 text-white text-lg" onClick={() => setIsOpen(false)}>
+                       {nav.name}
+                  </Link>
             ))}
           </div>
         )}
+          
         <div className="flex items-baseline gap-7 max-sm:justify-end max-sm:flex-1">
         <a href="https://cults3d.com/en/users/3Dregrees/3d-models" target="_blank"  rel="no opener noreferrer">
           <img src={cultsLogo} alt="cults" className="nav-logo invest-10"/></a>
